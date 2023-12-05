@@ -6,7 +6,8 @@
 .question_wrapper header h2{padding:39px 28px;background:var(--c_primary_m);}
 .question_wrapper header h2 span{display:block;width:118px;height:32px;font-size:0;background:url(/images/common/tit_q1.svg) no-repeat;}
 .question_wrapper header .titwrap{display:flex;flex-direction:column;justify-content:center;gap:8px;padding:26px;}
-.question_wrapper header .titwrap h3{font-size:20px;font-weight:800;}
+.question_wrapper header .titwrap h3{display:flex;align-items:center;gap:4px;font-size:20px;font-weight:800;}
+.question_wrapper header .titwrap h3 em{padding:6px;font-size:14px;border-radius:4px;border: 1px solid var(--c_white_p60);font-weight:800;line-height:1;}
 .question_wrapper header .titwrap p{font-size:12px;font-weight:300;}
 .question_wrapper header .titwrap .q_info{position:absolute;right:28px;display:flex;align-items:center;gap:4px}
 .question_wrapper header .titwrap .q_info span{display:flex;padding:8px 12px;align-items: center;gap:4px;border-radius:8px;border:2px solid var(--c_white_p40);color:var(--c_white_p40);font-size:14px;line-height:20px;}
@@ -17,7 +18,7 @@
 .question_wrapper section{display:flex;flex-direction:column;border-radius:30px 30px 0 0;overflow:hidden;background:#fff;}
 .question_wrapper section .q_tit{display:flex;align-items:center;;padding: 22px 40px 19px 40px;gap:4px;font-size:18px;color:var(--c_gray70);background:var(--c_bg_gray);}
 .question_wrapper section .q_tit em{display:inline-flex;align-items:center;gap:3px;margin-right:20px;padding: 10px 13px 10px 15px;color:#fff;font-size:14px;border-radius: 10px;background:var(--c_gray50);}
-.question_wrapper section .q_tit em i{display:flex;align-items:center;justify-content:center;min-width:24px;height:24px;padding:0 1px;border-radius:20px;font-size:16px;color:var(--c_gray50);font-family:var(--f_nsR);background:#fff;}
+.question_wrapper section .q_tit em i{display:flex;align-items:center;justify-content:center;min-width:24px;height:24px;padding:0 1px;border-radius:20px;font-size:15px;color:var(--c_gray50);font-family:var(--f_nsR);line-height:1;background:#fff;}
 .question_wrapper section > .layout{display:flex;flex-direction:column;gap:40px;padding:40px;}
 .question_wrapper section .q_txt{display:flex;align-items:center;margin-bottom:20px;font-size:14px;}
 .question_wrapper section .q_txt i{display:block;width:24px;height:29px;background:url(/images/common/ico_hand.svg) no-repeat;}
