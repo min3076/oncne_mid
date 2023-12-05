@@ -1,6 +1,39 @@
 @charset "UTF-8";
 :root {
 	/* Primary - color */
+	--c_primary : #0098ED;
+	--c_primary_m : #2A3E6C;
+
+
+	--c_white_p40 : rgba(255, 255, 255, 0.40);
+
+	--c_bg_gray:#F4F5F6;
+	--c_bg_gray_m:#DEE4E8;
+
+	--c_gray40:#CED4DA;
+	--c_gray50:#8D9BA8;
+	--c_gray70:#495057;
+	
+
+	--f_nsN:'NanumSquareNeo';
+	--f_nsR:'NanumSquareRound';
+	--ani_time:.3s;
+	--load_time:3s;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	--c_blue : #4D8DE7;
 	--c_yellow : #FEC637;
 	--c_pink : #FF82BB;
@@ -39,10 +72,7 @@
 	--bg_body : #F5F7FB;
 	--line_gray:#cacaca;
 
-	--f_nsN:'NanumSquareNeo';
-	--f_nsR:'NanumSquareRound';
-	--ani_time:.3s;
-	--load_time:3s;
+
 	
 }
 

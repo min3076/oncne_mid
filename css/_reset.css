@@ -42,5 +42,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+em, i{
+	font-style: normal;
+}
 /* new2dptj 변경 테스트 다시 */
