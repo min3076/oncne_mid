@@ -4,6 +4,7 @@
 	--c_primary : #0098ED;
 	--c_primary_m : #2A3E6C;
 
+	--c_mint : #57BBAD;
 
 	--c_white_p40 : rgba(255, 255, 255, 0.40);
 	--c_white_p60 : rgba(255, 255, 255, 0.60);
@@ -38,7 +39,6 @@
 	--c_blue : #4D8DE7;
 	--c_yellow : #FEC637;
 	--c_pink : #FF82BB;
-	--c_mint : #57BBAD;
 
 	/* Primary - color - more */
 	--c_blue_m : #206CD8;
