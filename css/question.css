@@ -26,7 +26,7 @@
 .question_wrapper section .q_tit{display:flex;align-items:center;;padding: 22px 40px 19px 40px;gap:4px;font-size:17px;color:var(--c_gray70);background:var(--c_bg_gray);}
 .question_wrapper section .q_tit em{display:inline-flex;align-items:center;gap:3px;margin-right:20px;padding: 10px 13px 10px 15px;color:#fff;font-size:14px;border-radius: 10px;background:var(--c_gray50);}
 .question_wrapper section .q_tit em i{display:flex;align-items:center;justify-content:center;min-width:24px;height:24px;padding:0 1px;border-radius:20px;font-size:15px;color:var(--c_gray50);font-family:var(--f_nsR);line-height:1;background:#fff;}
-.question_wrapper section .q_tit .txt{width:calc(100% - 116px);}
+.question_wrapper section .q_tit .txt{display:flex;flex-wrap:wrap;align-items:center;width:calc(100% - 116px);line-height:1.4}
 .question_wrapper section .q_tit .txt img{margin:0 4px;}
 .question_wrapper section > .layout{display:flex;flex-direction:column;gap:40px;height:100%;padding:40px;}
 /* row-layout */
@@ -39,20 +39,24 @@
 
 .question_wrapper section .q_txt{display:flex;align-items:center;margin-bottom:20px;font-size:14px;}
 .question_wrapper section .q_txt i{display:block;width:24px;height:29px;background:url(/images/common/ico_hand.svg) no-repeat;}
-.question_wrapper section .wrap{display:flex;align-items:center;justify-content:center;gap:20px;padding:50px 50px;border-radius:24px;}
+.question_wrapper section .wrap{display:flex;align-items:center;justify-content:center;gap:50px;padding:50px 50px;border-radius:24px;}
 .question_wrapper section .q_wrap{border:1px solid var(--c_gray40);background:var(--c_bg_gray);}
 .question_wrapper section .a_wrap{border:2px dashed var(--c_primary);}
 
-.question_wrapper section .q_wrap .imgwrap{position:relative;display:inline-block;}
-.question_wrapper section .q_wrap .imgwrap input{position:absolute;}
-.question_wrapper section img{max-width:100%;}
+.question_wrapper section .q_wrap .imgwrap{position:relative;display:inline-flex;align-items:center;gap:12px;}
+.question_wrapper section .q_wrap .imgwrap .shape_sq{position:absolute;height:32px;background:#fff}
+.question_wrapper section img{max-width:100%;mix-blend-mode: darken;}
+.question_wrapper section input[type="text"],
+.question_wrapper section input::placeholder{text-align:center;}
+
 
 .question_wrapper .btn{position:fixed;bottom:20px;right:0;z-index:100;gap:8px;padding:12px 16px 12px 33px;font-weight:800;border-color:var(--c_primary_m);border-radius:40px 0 0 40px;background:var(--c_primary_m)}
 .question_wrapper .btn i{display:block;width:32px;height:32px;background:url(/images/common/ico_cir_arr.svg) no-repeat}
 
 
-/* 문항보기의 이미지에 input 띄우기 - width, hegith, position값을 해당 페이지별로 준다 */
-#math_msh1_mq1_14.question_wrapper section .q_wrap .imgwrap input{left:70px;top:78px;width:136px}
-
 /* 문항질문내용 중 박스 */
-.shape_sq{width:50px;height:32px;border-radius: 4px;border:2px solid var(--c_gray70);}
+.shape_sq{display:inline-block;width:36px;height:28px;margin:0 2px;border-radius: 4px;border:2px solid var(--c_gray70);}
+
+
+/* 문항보기의 이미지에 input 띄우기 - width, hegith, position값을 해당 페이지별로 준다 */
+#math_msh1_mq1_14.question_wrapper section .q_wrap .imgwrap .shape_sq{left:68px;top:78px;width:136px}
