@@ -13,7 +13,13 @@ html, body {margin: 0; padding: 0;font-size:16px; color:var(--c_gray70);backgrou
 /* align */
 .flex-col{flex-direction:column;}
 .flex-row{flex-direction:row;}
-
+.fx_align_c{align-items:center!important}
+.fx_align_l{align-items:flex-start!important}
+.fx_align_r{align-items:flex-end!important}
+.fx_valign_c{justify-content:center!important}
+.fx_valign_l{justify-content:flex-start!important}
+.fx_valign_r{justify-content:flex-end!important}
+.fx_valign_bw{justify-content:space-between!important}
 
 /* BUTTON  - _button.css */
 a {text-decoration: none;color: #333;}
@@ -189,9 +195,10 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 .designSelect .selectoption li:hover{color:#000;}
 .designSelect .selectoption li[rel="hide"]{display:none;}
 	/* design radio */
-.designRadio{}
+.designRadio{display:flex;align-items:center;gap:20px;flex-wrap:wrap;}
+.designRadio li{display:flex;align-items:center;gap:20px;flex-wrap:wrap;}
 .designRadio input[type="radio"]{position:absolute; opacity:0;}
-.designRadio input[type="radio"] + label{display:inline-flex;align-items:center;min-height:20px;cursor:pointer; line-height:1em; color:#000; letter-spacing:-1px;font-weight:400}
+.designRadio input[type="radio"] + label{display:inline-flex;align-items:center;gap:8px;cursor:pointer; line-height:1;font-weight:400}
 .designRadio input[type="radio"] + label:before{content:''; display:block; width:16px; height:16px; background:#fff url(/images/common/img_radio.png) no-repeat 0 0;}
 .designRadio input[type="radio"]:checked + label:before{background-position:0 -16px;}
 .designRadio input[type="radio"]:disabled + label:before{background-position:0 -32px;}
@@ -199,7 +206,7 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 	/* design checkbox */
 .designCheck{}
 .designCheck input[type="checkbox"]{position:absolute; opacity:0;}
-.designCheck input[type="checkbox"] + label{display:inline-flex; position:relative; min-height:20px; padding-left:40px; margin-right:40px; cursor:pointer; line-height:1em; color:#000; letter-spacing:-1px;}
+.designCheck input[type="checkbox"] + label{display:inline-flex;align-items:center;position:relative;cursor:pointer; line-height:1;}
 .designCheck input[type="checkbox"] + label:before{content:''; display:block;width:16px; height:16px; background:#fff url(/images/common/img_checkbox.png) no-repeat 0 0;}
 .designCheck input[type="checkbox"]:checked + label:before{background-position:0 -16px;}
 .designCheck input[type="checkbox"]:disabled + label:before{background-position:0 -32px;}
