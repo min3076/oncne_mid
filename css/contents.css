@@ -3,7 +3,11 @@
 /* qB 단답형 공통 css*/
 #math_msh1_mq1_8.question_wrapper section input[type="text"],
 #math_msh1_dq1_11.question_wrapper section input[type="text"],
-#math_msh1_dq1_12.question_wrapper section input[type="text"] {position:absolute;top:0;width:100px;height:42px;}
+#math_msh1_dq1_12.question_wrapper section input[type="text"],
+#math_msh1_mq1_25.question_wrapper section input[type="text"],
+#math_msh1_dq1_35.question_wrapper section input[type="text"],
+#math_msh1_mq3_1.question_wrapper section input[type="text"] {position:absolute;top:0;width:100px;height:42px;}
+
 
 /* 문항별 스타일 */
 #math_msh1_mq1_8.question_wrapper section .qa {left:40px;}
@@ -19,3 +23,28 @@
 #math_msh1_dq1_12.question_wrapper section .qa4 {left:460px;}
 
 #math_msh1_dq1_23.question_wrapper section .a_wrap {gap:10px;}
+
+#math_msh1_mq1_25.question_wrapper section input[type="text"] {top:-10px}
+#math_msh1_mq1_25.question_wrapper section .qa {left:175px;}
+#math_msh1_mq1_25.question_wrapper section .qa2 {left:175px; top:52px !important}
+#math_msh1_mq1_25.question_wrapper section .qa3 {left:330px;}
+#math_msh1_mq1_25.question_wrapper section .qa4 {left:330px; top:52px !important}
+
+#math_msh1_dq1_35.question_wrapper section input[type="text"] {top:-10px}
+#math_msh1_dq1_35.question_wrapper section .qa {left:88px;}
+#math_msh1_dq1_35.question_wrapper section .qa2 {left:88px; top:44px !important}
+#math_msh1_dq1_35.question_wrapper section .qa3 {left:335px;}
+#math_msh1_dq1_35.question_wrapper section .qa4 {left:335px; top:44px !important}
+
+#math_msh1_mq3_1.question_wrapper section .q_wrap .imgwrap {flex-wrap:wrap;}
+#math_msh1_mq3_1.question_wrapper section .q_wrap .imgwrap > img {margin-left: 45px;mix-blend-mode: initial;}
+#math_msh1_mq3_1.question_wrapper section .q_wrap .imgwrap .designRadio {padding:0 20px 20px 51px;gap:26px;}
+#math_msh1_mq3_1.question_wrapper section .q_wrap .imgwrap .designRadio > li::before {display:none;}
+#math_msh1_mq3_1.question_wrapper section input[type="text"] {top:106px}
+#math_msh1_mq3_1.question_wrapper section .qa {left:314px;}
+#math_msh1_mq3_1.question_wrapper section .qa2 {left:419px;}
+#math_msh1_mq3_1.question_wrapper section .qa3 {left:526px;}
+
+#math_msh1_dq3_3.question_wrapper section .a_wrap {gap:10px;}
+
+
