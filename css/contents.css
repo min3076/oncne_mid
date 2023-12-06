@@ -1,3 +1,21 @@
 @charset "UTF-8";
 
-#math_msh1_mq1_8 .question_wrapper section input[type="text"] {}
+/* qB 단답형 공통 css*/
+#math_msh1_mq1_8.question_wrapper section input[type="text"],
+#math_msh1_dq1_11.question_wrapper section input[type="text"],
+#math_msh1_dq1_12.question_wrapper section input[type="text"] {position:absolute;top:0;width:100px;height:42px;}
+
+/* 문항별 스타일 */
+#math_msh1_mq1_8.question_wrapper section .qa {left:40px;}
+#math_msh1_mq1_8.question_wrapper section .qa2 {left:230px;}
+#math_msh1_mq1_8.question_wrapper section .qa3 {left:400px;}
+
+#math_msh1_dq1_11.question_wrapper section .qa {left:34px;}
+#math_msh1_dq1_11.question_wrapper section .qa2 {left:250px;}
+
+#math_msh1_dq1_12.question_wrapper section .qa {left:26px;}
+#math_msh1_dq1_12.question_wrapper section .qa2 {left:163px;}
+#math_msh1_dq1_12.question_wrapper section .qa3 {left:320px;}
+#math_msh1_dq1_12.question_wrapper section .qa4 {left:460px;}
+
+#math_msh1_dq1_23.question_wrapper section .a_wrap {gap:10px;}
