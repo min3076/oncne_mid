@@ -162,15 +162,15 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 .list_1st li::before{content:"";position:absolute;left:0;top:50%;display:block;width:.3rem;height:.3rem;border-radius:4rem;transform:translateY(-50%);background:var(--c_blue);}
 
 .list_ol{display:flex;flex-direction:column;gap:10px;}
-.list_ol li{position:relative}
-.list_ol li::before{content:'1';display:flex;justify-content:center;align-items:center;gap:10px;width:30px;height:30px;border-radius:100px;border: 1px solid var(--c_primary);color:var(--c_primary);font-weight:800;font-size:16px;background:var(--c_primary_p10);}
-.list_ol li:nth-of-type(2)::before{content:'2';}
-.list_ol li:nth-of-type(3)::before{content:'3';}
-.list_ol li:nth-of-type(4)::before{content:'4';}
-.list_ol li:nth-of-type(5)::before{content:'5';}
-.list_ol li:nth-of-type(6)::before{content:'6';}
-.list_ol li:nth-of-type(7)::before{content:'7';}
-.list_ol li:nth-of-type(8)::before{content:'8';}
+.list_ol > li{position:relative}
+.list_ol > li::before{content:'1';display:flex;justify-content:center;align-items:center;gap:10px;width:30px;height:30px;border-radius:100px;border: 1px solid var(--c_primary);color:var(--c_primary);font-weight:800;font-size:16px;background:var(--c_primary_p10);}
+.list_ol > li:nth-of-type(2)::before{content:'2';}
+.list_ol > li:nth-of-type(3)::before{content:'3';}
+.list_ol > li:nth-of-type(4)::before{content:'4';}
+.list_ol > li:nth-of-type(5)::before{content:'5';}
+.list_ol > li:nth-of-type(6)::before{content:'6';}
+.list_ol > li:nth-of-type(7)::before{content:'7';}
+.list_ol > li:nth-of-type(8)::before{content:'8';}
 
 /* form */
 
