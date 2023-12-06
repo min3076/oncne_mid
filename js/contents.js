@@ -18,16 +18,16 @@ function popupTop(){
 }
 
 $(document).ready(function(){
-    $('.select.type01, .select.type02, .select.type03, .select.type04').on('click', function (event) {
+    $('.designSelect,.designSelect.type01, .designSelect.type02, .designSelect.type03, .designSelect.type04').on('click', function (event) {
         $(this).toggleClass('on');
     });
     
     $('body').on('click', function (e) {
-        if (!$('.select.type01, .select.type02, .select.type03, .select.type04').is(e.target)
-        && $('.select.type01, .select.type02, .select.type03, .select.type04').has(e.target).length === 0 
+        if (!$('.designSelect,.designSelect.type01, .designSelect.type02, .designSelect.type03, .designSelect.type04').is(e.target)
+        && $('.designSelect,.designSelect.type01, .designSelect.type02, .designSelect.type03, .designSelect.type04').has(e.target).length === 0 
         && $('.on').has(e.target).length === 0
         ) {
-            $('.select.type01, .select.type02, .select.type03, .select.type04').removeClass('on');
+            $('.designSelect.designSelect.type01, .designSelect.type02, .designSelect.type03, .designSelect.type04').removeClass('on');
         }
     });
     
