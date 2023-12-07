@@ -76,7 +76,8 @@
 .question_wrapper .btn{position:fixed;bottom:20px;right:0;z-index:100;gap:8px;padding:12px 16px 12px 33px;font-weight:800;border-color:var(--c_primary_m);border-radius:40px 0 0 40px;background:var(--c_primary_m)}
 .question_wrapper .btn i{display:block;width:32px;height:32px;background:url(/images/common/ico_cir_arr.svg) no-repeat}
 
-
+/* a_wrap 안에 imgwrap 공통 css 추가 */
+.question_wrapper section .a_wrap .imgwrap {position:relative;display:inline-flex;align-items:center;gap:12px;}
 
 
 /* 문항보기의 이미지에 input 띄우기 - width, hegith, position값을 해당 페이지별로 준다 */
