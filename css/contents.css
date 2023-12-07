@@ -109,3 +109,36 @@
 #math_msh1_dq4_13.question_wrapper section .q_wrap .imgwrap > div .shape_sq {width:120px;height:42px;top: 30px;left: 100px;}
 #math_msh1_dq4_13.question_wrapper section .a_wrap {row-gap:22px;}
 #math_msh1_dq4_13 .designBox li em {padding:6px 12px 8px;}
+
+#math_msh1_mq3_2.question_wrapper section img {mix-blend-mode:inherit;}
+#math_msh1_mq3_2.question_wrapper section .q_wrap .imgwrap .shape_sq {width:74px;height:38px;top:75px;left:108px;padding-top:8px;text-align:center;color:var(--c_gray50);}
+#math_msh1_mq3_2.question_wrapper section .q_wrap .imgwrap .shape_sq:nth-of-type(1) {top:130px;}
+#math_msh1_mq3_2.question_wrapper section .q_wrap .imgwrap .shape_sq:nth-of-type(2) {}
+#math_msh1_mq3_2.question_wrapper section .q_wrap .imgwrap .shape_sq:nth-of-type(3) {left:215px;top:100px;}
+#math_msh1_mq3_2.question_wrapper section .q_wrap .imgwrap .shape_sq:nth-of-type(4) {top:130px;left:467px;}
+#math_msh1_mq3_2.question_wrapper section .q_wrap .imgwrap .shape_sq:nth-of-type(5) {left:467px;}
+#math_msh1_mq3_2.question_wrapper section .q_wrap .imgwrap .shape_sq:nth-of-type(6) {top:100px;left:576px;}
+#math_msh1_mq3_2.question_wrapper section .wrap {row-gap:32px;}
+
+#math_msh1_dq3_6.question_wrapper section .q_wrap .imgwrap .shape_sq {width:80px;height:38px;top:50px;left:118px;padding-top:8px;text-align:center;color:var(--c_gray50);}
+#math_msh1_dq3_6.question_wrapper section .q_wrap .imgwrap .shape_sq:nth-of-type(1) {}
+#math_msh1_dq3_6.question_wrapper section .q_wrap .imgwrap .shape_sq:nth-of-type(2) {left:245px;}
+#math_msh1_dq3_6.question_wrapper section .q_wrap .imgwrap .shape_sq:nth-of-type(3) {top:108px;left:70px;}
+
+#math_msh1_dq1_21.question_wrapper section .q_wrap ul {display:flex;flex-direction:row;justify-content:center;width:100%;gap:30px;}
+#math_msh1_dq1_21.question_wrapper section .q_wrap ul li {position:relative;display:flex;flex-direction:column;gap:20px;align-items:center;width:33.3%;text-align:center;line-height:1.4}
+#math_msh1_dq1_21.question_wrapper section .q_wrap ul li:nth-child(2)::after {position:absolute;content:'';display:block;width:30px;height:30px;top:130px;right:-53px;mix-blend-mode:darken;background: url('/images/question/math_msh1_dq1_21_q_after.png');}
+#math_msh1_dq1_21.question_wrapper section .q_wrap ul li:last-child {margin-left:50px;}
+#math_msh1_dq1_21.question_wrapper section .q_wrap ul li .shape_sq{position:relative;width:100%;min-height:200px;height:calc(100% - 112px);border-style:dashed;border-color:var(--c_gray40);background:#fff}
+#math_msh1_dq1_21.question_wrapper section .a_wrap{gap:4px;}
+#math_msh1_dq1_21 .designBox li em{min-width:50px;height:50px;}
+
+#math_msh1_dq1_22.question_wrapper section .q_wrap ul {display:flex;flex-direction:row;justify-content:center;width:100%;gap:30px;}
+#math_msh1_dq1_22.question_wrapper section .q_wrap ul li {position:relative;display:flex;flex-direction:column;gap:20px;align-items:center;width:33.3%;text-align:center;line-height:1.4}
+#math_msh1_dq1_22.question_wrapper section .q_wrap ul li:nth-child(1)::after {position:absolute;content:'';display:block;width:30px;height:30px;top:130px;right:-53px;mix-blend-mode:darken;background: url('/images/question/math_msh1_dq1_21_q_after.png');}
+#math_msh1_dq1_22.question_wrapper section .q_wrap ul li:last-child {margin-left:50px;}
+#math_msh1_dq1_22.question_wrapper section .q_wrap ul li .shape_sq{position:relative;width:100%;min-height:200px;height:calc(100% - 112px);border-style:dashed;border-color:var(--c_gray40);background:#fff}
+#math_msh1_dq1_22.question_wrapper section .a_wrap{gap:4px;}
+#math_msh1_dq1_22 .designBox li em{min-width:50px;height:50px;}
+
+
