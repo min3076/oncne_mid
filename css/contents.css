@@ -9,7 +9,10 @@
 #math_msh1_mq3_1.question_wrapper section input[type="text"] {position:absolute;top:0;width:100px;height:42px;}
 
 /* qD 선택형 공통 css */
-#math_msh1_mq1_13.question_wrapper section .designSelect {position:absolute;top:0;}
+#math_msh1_mq1_13.question_wrapper section .designSelect,
+#math_msh1_mq1_14.question_wrapper section .designSelect,
+#math_msh1_dq1_15.question_wrapper section .designSelect,
+#math_msh1_dq1_17.question_wrapper section .designSelect {position:absolute;top:0;}
 
 
 
@@ -55,12 +58,22 @@
 
 #math_msh1_dq3_4.question_wrapper section .q_wrap .imgwrap > img {mix-blend-mode: initial;}
 
-#math_msh1_mq1_13.question_wrapper section .a_wrap .imgwrap {position:relative;}
 #math_msh1_mq1_13.question_wrapper section .designSelect {width:120px;}
 #math_msh1_mq1_13.question_wrapper section .designSelect.qa {left:162px;top:18px;}
 #math_msh1_mq1_13.question_wrapper section .designSelect.qa2 {left:314px;top:58px;}
 #math_msh1_mq1_13.question_wrapper section .designSelect.qa3 {left:314px;top:-14px;}
 
+#math_msh1_mq1_14.question_wrapper section .designSelect {width:120px;}
+#math_msh1_mq1_14.question_wrapper section .designSelect.qa {left:175px;top:18px;}
+#math_msh1_mq1_14.question_wrapper section .designSelect.qa2 {left:314px;top:58px;}
+#math_msh1_mq1_14.question_wrapper section .designSelect.qa3 {left:314px;top:-14px;}
 
+#math_msh1_dq1_15.question_wrapper section .designSelect {width:120px;}
+#math_msh1_dq1_15.question_wrapper section .designSelect.qa {left:162px;top:18px;}
+#math_msh1_dq1_15.question_wrapper section .designSelect.qa2 {left:314px;top:58px;}
+#math_msh1_dq1_15.question_wrapper section .designSelect.qa3 {left:314px;top:-14px;}
 
-
+#math_msh1_dq1_17.question_wrapper section .designSelect {width:120px;}
+#math_msh1_dq1_17.question_wrapper section .designSelect.qa {left:162px;top:18px;}
+#math_msh1_dq1_17.question_wrapper section .designSelect.qa2 {left:314px;top:58px;}
+#math_msh1_dq1_17.question_wrapper section .designSelect.qa3 {left:314px;top:-14px;}
