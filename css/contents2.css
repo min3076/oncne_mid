@@ -53,3 +53,10 @@
 #math_msh2_mq1_25.question_wrapper section .q_wrap .imgwrap .shape_sq:nth-of-type(2){left:245px;top:66px;width:85px;height:40px;}
 #math_msh2_mq1_25.question_wrapper section .a_wrap{gap:20px;}
 #math_msh2_mq1_25 .designBox li em{height:85px;}
+
+#math_msh2_dq1_28.question_wrapper section .q_wrap{gap:10px;}
+#math_msh2_dq1_28.question_wrapper section .q_wrap .imgwrap{height:67px;}
+#math_msh2_dq1_28.question_wrapper section .q_wrap .imgwrap .shape_sq{left:240px;top:16px;width:85px;height:40px;}
+#math_msh2_dq1_28.question_wrapper section .q_wrap .imgwrap .shape_sq:nth-of-type(2){left:245px;top:66px;width:85px;height:40px;}
+#math_msh2_dq1_28.question_wrapper section .a_wrap{gap:20px;}
+#math_msh2_dq1_28 .designBox li em{height:85px;}
