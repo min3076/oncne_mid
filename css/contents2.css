@@ -39,3 +39,6 @@
 #math_msh2_dq1_16.question_wrapper section .q_wrap ol li .shape_sq::before{content:'';position:absolute;left:50%;bottom:-20px;transform:translateX(-50%);display:block;width:102px;height:50px;background:url(/images/question/math_msh2_mq4_8_bg.png) no-repeat}
 #math_msh2_dq1_16.question_wrapper section .a_wrap{gap:15px;}
 #math_msh2_dq1_16 .designBox li em{height:65px;}
+
+#math_msh2_mq1_19.question_wrapper section .q_wrap .imgwrap .shape_sq{left:89px;top:12px;width:110px;height:40px;}
+#math_msh2_mq1_19.question_wrapper section .q_wrap .imgwrap .shape_sq:nth-of-type(2){left:335px;top:12px;width:110px;height:40px;}
