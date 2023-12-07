@@ -3,6 +3,9 @@
 @import url(_reset.css);
 @import url(_font.css);
 @import url(_button.css);
+@import url(contents.css);
+@import url(contents2.css);
+
 
 * {box-sizing: border-box;}
 html, body {margin: 0; padding: 0;font-size:16px; color:var(--c_gray70);background:var(--bg_body);}
