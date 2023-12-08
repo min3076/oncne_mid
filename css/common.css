@@ -247,23 +247,21 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 .designSelect .lay a::after {content:"";display:block;position:absolute;right: 15px; top: 10px; width: 24px; height: 24px;transform:rotate(0deg);-webkit-transform: rotate(0deg);background: url(../images/common/ico_arr_bott.svg) no-repeat 50%;transition: all var(--ani_time) ease;-webkit-transition: all var(--ani_time) ease;}
 .designSelect.on .lay a{border-radius:4px 4px 0 0 }
 .designSelect.on .lay a::after {transform: rotate(180deg);-webkit-transform: rotate(180deg);}
-.designSelect.on .lists {display:block;position:absolute;top:47px;width:100%;padding:0 20px;z-index:10;border:2px solid var(--c_gray40);border-top:0;overflow-y: scroll;}
+.designSelect.on .lists {display:block;position:absolute;top:47px;width:100%;padding:0 14px;z-index:10;border:2px solid var(--c_gray40);border-top:0;overflow-y: scroll;}
 .designSelect .lists {display:none;max-height:200px;border-radius:3px;background:#fff;}
 .designSelect .lists ul{padding-top:10px;border-top:1px solid #E3EEF3;}
 .designSelect .lists ul li {text-align:center;}
-.designSelect .lists ul li a {display:block;height:48px;line-height:48px; text-align: left;}
-.designSelect .lists ul li a:hover {color:var(--c_primary)}
-
+.designSelect .lists ul li a {display:block;height:48px;line-height:48px;padding:0 4px;text-align:left;}
+.designSelect .lists ul li a:hover {background-color:var(--c_bg_gray);}
 
 /* color */
 .c_primary{color:var(--c_primary)}
 
 
-/* 단일로 사용되는 수학기호 아이콘 Y, X, A, B */
-/* 사용예시 : <i class="mico ico_y"></i> */
+/* 단일로 사용되는 수학기호 사용예시 : <i class="mico ico_y"></i> */
 .mico {display:inline-block;width:20px;height:20px;background-repeat:no-repeat;background-position:50%;vertical-align:middle;}
-.ico_y {background-image: url('/images/question/math_img_y.png');}
-.ico_x {background-image: url('/images/question/math_img_x.png');}
-.ico_a {background-image: url('/images/question/math_img_a.png');}
-.ico_b {background-image: url('/images/question/math_img_b.png');}
-.ico_eq {background-image: url('/images/question/math_img_eq.png');} /* 등호 = */
+.ico_y {background-image:url('/images/question/math_img_y.png');}
+.ico_x {background-image:url('/images/question/math_img_x.png');}
+.ico_a {background-image:url('/images/question/math_img_a.png');}
+.ico_b {background-image:url('/images/question/math_img_b.png');}
+.ico_eq {background-image:url('/images/question/math_img_eq.png');} /* 등호 = */
