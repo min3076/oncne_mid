@@ -60,3 +60,10 @@
 #math_msh2_dq1_28.question_wrapper section .q_wrap .imgwrap .shape_sq:nth-of-type(2){left:245px;top:66px;width:85px;height:40px;}
 #math_msh2_dq1_28.question_wrapper section .a_wrap{gap:20px;}
 #math_msh2_dq1_28.question_wrapper .designBox li em{height:85px;}
+
+#math_msh2_dq1_29.question_wrapper section .list_ol{flex-direction:row;}
+#math_msh2_dq1_29.question_wrapper section .q_wrap{gap:10px;}
+#math_msh2_dq1_29.question_wrapper section .q_wrap .imgwrap{align-items:flex-start;}
+#math_msh2_dq1_29.question_wrapper section .q_wrap .imgwrap .shape_sq{left:66px;top:104px;width:133px;height:42px;}
+#math_msh2_dq1_29.question_wrapper section .q_wrap .imgwrap .designSelect{position:absolute;left:178px;top:38px;width:100px;height:51px;}
+#math_msh2_dq1_29.question_wrapper section .a_wrap{gap:20px;}
