@@ -67,3 +67,10 @@
 #math_msh2_dq1_29.question_wrapper section .q_wrap .imgwrap .shape_sq{left:66px;top:104px;width:133px;height:42px;}
 #math_msh2_dq1_29.question_wrapper section .q_wrap .imgwrap .designSelect{position:absolute;left:178px;top:38px;width:100px;height:51px;}
 #math_msh2_dq1_29.question_wrapper section .a_wrap{gap:20px;}
+
+#math_msh2_dq1_33.question_wrapper section .list_ol{flex-direction:row;}
+#math_msh2_dq1_33.question_wrapper section .q_wrap{gap:10px;}
+#math_msh2_dq1_33.question_wrapper section .q_wrap .imgwrap{align-items:flex-start;}
+#math_msh2_dq1_33.question_wrapper section .q_wrap .imgwrap .shape_sq{left:66px;top:105px;width:133px;height:42px;}
+#math_msh2_dq1_33.question_wrapper section .q_wrap .imgwrap .designSelect{position:absolute;left:74px;top:42px;width:100px;height:51px;}
+#math_msh2_dq1_33.question_wrapper section .a_wrap{gap:20px;}
