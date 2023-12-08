@@ -124,3 +124,8 @@
 #math_msh2_dq1_41.question_wrapper section .q_wrap .imgwrap .designSelect .lay a{height:52px;}
 #math_msh2_dq1_41.question_wrapper section .q_wrap .imgwrap .shape_sq{left:401px;top:-1px;padding:5px;width:64px;height:44px;}
 #math_msh2_dq1_41.question_wrapper section .q_wrap .imgwrap .shape_sq:nth-of-type(2){left:401px;top:57px;}
+
+#math_msh2_mq2_1.question_wrapper section .wrap {gap:30px;}
+#math_msh2_mq2_1.question_wrapper section .q_wrap .imgwrap{gap: 5px;}
+#math_msh2_mq2_1.question_wrapper section .q_wrap .imgwrap .shape_sq{position: unset;width: 90px;height: 50px;}
+#math_msh2_mq2_1.question_wrapper .designBox li em{height:75px;}
