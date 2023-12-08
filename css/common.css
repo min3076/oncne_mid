@@ -257,3 +257,13 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 
 /* color */
 .c_primary{color:var(--c_primary)}
+
+
+/* 단일로 사용되는 수학기호 아이콘 Y, X, A, B */
+/* 사용예시 : <i class="mico ico_y"></i> */
+.mico {display:inline-block;width:20px;height:20px;background-repeat:no-repeat;background-position:50%;vertical-align:middle;}
+.ico_y {background-image: url('/images/question/math_img_y.png');}
+.ico_x {background-image: url('/images/question/math_img_x.png');}
+.ico_a {background-image: url('/images/question/math_img_a.png');}
+.ico_b {background-image: url('/images/question/math_img_b.png');}
+.ico_eq {background-image: url('/images/question/math_img_eq.png');} /* 등호 = */
