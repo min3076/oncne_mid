@@ -168,9 +168,9 @@
 #math_msh1_mq1_32.question_wrapper section .q_wrap .imgwrap .shape_sq:nth-of-type(4) {left:478px;}
 #math_msh1_mq1_32.question_wrapper section .wrap {gap:32px;}
 
-
-
-
+#math_msh1_mq5_1.question_wrapper section .wrap {gap:32px;}
+#math_msh1_mq5_1.question_wrapper section .a_wrap .imgwrap {min-width:555px;}
+#math_msh1_mq5_1.question_wrapper section input[type="text"] {width:100px;height:40px;}
 
 
 
