@@ -5,6 +5,9 @@
 #math_msh2_dq1_4 .list_ol > li::before{display: none;}
 #math_msh2_dq1_4.question_wrapper section .q_wrap ol{flex-direction:row;width:100%;}
 #math_msh2_dq1_4.question_wrapper section .q_wrap ol li{display:flex;flex-direction:column;flex-grow:1;gap:20px;align-items:center;width:33.3%;text-align:center;line-height:1.4}
+#math_msh2_dq1_4.question_wrapper section .q_wrap ol li span{display:flex;justify-content:center;align-items:center;gap:10px;padding:5px 7px;border-radius:100px;border: 1px solid var(--c_primary);color:var(--c_primary);font-weight:800;font-size:16px;background:var(--c_primary_p10);}
+
+
 #math_msh2_dq1_4.question_wrapper section .q_wrap ol li .shape_sq{position:relative;width:100%;min-height:200px;height:calc(100% - 112px);border-style:dashed;border-color:var(--c_gray40);background:#fff}
 #math_msh2_dq1_4.question_wrapper section .q_wrap ol li .shape_sq::before{content:'';position:absolute;left:50%;bottom:-20px;transform:translateX(-50%);display:block;width:102px;height:50px;background:url(/images/question/math_msh2_mq4_8_bg.png) no-repeat}
 #math_msh2_dq1_4.question_wrapper section .a_wrap{gap:15px;}
@@ -35,6 +38,7 @@
 #math_msh2_dq1_16 .list_ol > li::before{display: none;}
 #math_msh2_dq1_16.question_wrapper section .a_wrap{gap:15px;}
 #math_msh2_dq1_16.question_wrapper section .q_wrap ol{flex-direction:row;width:100%;}
+#math_msh2_dq1_16.question_wrapper section .q_wrap ol li span{display:flex;justify-content:center;align-items:center;gap:10px;padding:5px 7px;border-radius:100px;border: 1px solid var(--c_primary);color:var(--c_primary);font-weight:800;font-size:16px;background:var(--c_primary_p10);}
 #math_msh2_dq1_16.question_wrapper section .q_wrap ol li{display:flex;flex-direction:column;flex-grow:1;gap:20px;align-items:center;width:33.3%;text-align:center;line-height:1.4}
 #math_msh2_dq1_16.question_wrapper section .q_wrap ol li .shape_sq{position:relative;width:100%;min-height:200px;height:calc(100% - 112px);border-style:dashed;border-color:var(--c_gray40);background:#fff}
 #math_msh2_dq1_16.question_wrapper section .q_wrap ol li .shape_sq::before{content:'';position:absolute;left:50%;bottom:-20px;transform:translateX(-50%);display:block;width:102px;height:50px;background:url(/images/question/math_msh2_mq4_8_bg.png) no-repeat}
