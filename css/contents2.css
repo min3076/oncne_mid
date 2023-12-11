@@ -190,3 +190,7 @@
 #math_msh2_dq1_30.question_wrapper section .designCheck li{width:240px}
 
 #math_msh2_mq2_14.question_wrapper section .wrap{gap: 50px 70px;}
+
+#math_msh2_dq2_3.question_wrapper section .designCheck li{width:260px}
+
+#math_msh2_dq2_5.question_wrapper section .wrap{align-items:flex-start;gap:10px}
