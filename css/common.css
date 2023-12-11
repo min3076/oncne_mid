@@ -21,8 +21,8 @@ html, body {margin: 0; padding: 0;font-size:16px; color:var(--c_gray70);backgrou
 
 
 /* align */
-.flex-col{flex-direction:column;}
-.flex-row{flex-direction:row;}
+.flex-col{flex-direction:column!important}
+.flex-row{flex-direction:row!important}
 .fx_align_c{align-items:center!important}
 .fx_align_l{align-items:flex-start!important}
 .fx_align_r{align-items:flex-end!important}
