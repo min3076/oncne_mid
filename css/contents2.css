@@ -180,4 +180,6 @@
 #math_msh2_mq1_20.question_wrapper section .designSelect{width:110px;}
 
 
-#math_msh2_mq1_26.question_wrapper section .q_wrap .imgwrap .shape_sq{position:unset;}
+#math_msh2_mq1_26.question_wrapper section .wrap{gap:10px;}
+#math_msh2_mq1_26.question_wrapper section .list_ol{gap: 50px;}
+#math_msh2_mq1_26.question_wrapper section .q_wrap .shape_sq{width:205px;height:70px;}
