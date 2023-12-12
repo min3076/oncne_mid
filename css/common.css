@@ -35,6 +35,7 @@ html, body {margin: 0; padding: 0;font-size:16px; color:var(--c_gray70);backgrou
 .gap0{gap:0!important}
 .gap10{gap:10px!important}
 .gap20{gap:20px!important}
+.gap40{gap:40px!important}
 
 /* BUTTON  - _button.css */
 a {text-decoration: none;color: #333;}
@@ -244,7 +245,7 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 	/* design radio */
 .designRadio{display:flex;align-items:center;gap:30px;flex-wrap:wrap;}
 .designRadio li{display:flex;align-items:center;gap:20px;flex-wrap:wrap;}
-.designRadio input[type="radio"]{position:absolute; opacity:0;}
+.designRadio input[type="radio"]{position:absolute; opacity:0; cursor: pointer;}
 .designRadio input[type="radio"] + label{display:inline-flex;align-items:center;gap:8px;cursor:pointer; line-height:1;font-weight:400}
 .designRadio input[type="radio"] + label:before{content:''; display:block; width:16px; height:16px; background:#fff url(/images/common/img_radio.png) no-repeat 0 0;}
 .designRadio input[type="radio"]:checked + label:before{background-position:0 -16px;}
@@ -282,8 +283,12 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 
 /* 단일로 사용되는 수학기호 사용예시 : <i class="mico ico_y"></i> */
 .mico {display:inline-block;width:20px;height:20px;background-repeat:no-repeat;background-position:50%;vertical-align:middle;mix-blend-mode:darken;}
-.ico_y {background-image:url('/images/question/math_img_y.png');}
+.ico_y {background-image:url('/images/question/math_img_y.png');background-position:50% 3px;}
 .ico_x {background-image:url('/images/question/math_img_x.png');}
 .ico_a {background-image:url('/images/question/math_img_a.png');}
 .ico_b {background-image:url('/images/question/math_img_b.png');}
 .ico_eq {background-image:url('/images/question/math_img_eq.png');} /* 등호 = */
+.ico_pl {background-image:url('/images/question/math_img_pl.png');} /* 더하기 + */
+
+/* bullet 형태의 텍스트 스타일 사용예시 :: math_msh3_mq4_22 참고 */
+.bullet {display:inline-flex;justify-content:center;align-items:center;min-height:38px;padding:6px 22px;border-radius:30px;border:1px solid var(--c_blue);color:var(--c_blue);background:var(--c_blue_1);}
