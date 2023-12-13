@@ -302,3 +302,11 @@
 #math_msh2_dq4_34.question_wrapper section .q_wrap .imgwrap .shape_sq{left:180px;top:387px;width:51px;}
 #math_msh2_dq4_34.question_wrapper section .q_wrap .imgwrap .shape_sq:nth-of-type(2){left:374px;top:387px;}
 #math_msh2_dq4_34.question_wrapper section .q_wrap .imgwrap .shape_sq:nth-of-type(3){left:566px;top:387px;}
+
+
+#math_msh2_mq5_2.question_wrapper section > .layout {align-items:flex-start;}
+#math_msh2_mq5_2.question_wrapper section .q_wrap .imgwrap .shape_sq{left:281px;top:120px;width:51px;}
+#math_msh2_mq5_2.question_wrapper section .q_wrap .imgwrap .shape_sq:nth-of-type(2){left:281px;top:232px;}
+#math_msh2_mq5_2.question_wrapper section .q_wrap .imgwrap .shape_sq:nth-of-type(3){left:281px;top:284px;}
+#math_msh2_mq5_2.question_wrapper section > .layout.row.w50 .q_wrap{width:55%;}
+#math_msh2_mq5_2.question_wrapper section > .layout.row.w50 .a_wrap{width:45%;}
