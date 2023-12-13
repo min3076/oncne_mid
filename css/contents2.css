@@ -334,3 +334,7 @@
 #math_msh2_mq4_1.question_wrapper section > .layout {align-items:flex-start;}
 #math_msh2_mq4_1.question_wrapper section > .layout.row.w50 .q_wrap{width:40%;}
 #math_msh2_mq4_1.question_wrapper section > .layout.row.w50 .a_wrap{width:60%;}
+
+#math_msh2_dq4_6.question_wrapper section > .layout {align-items:flex-start;}
+#math_msh2_dq4_9.question_wrapper section > .layout {align-items:flex-start;}
+#math_msh2_dq4_10.question_wrapper section > .layout {align-items:flex-start;}
