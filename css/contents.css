@@ -405,11 +405,11 @@
 #kor_msh2_mq7 .q_wrap .imgwrap .txtblock:nth-of-type(2) {top:235px;left:125px}
 #kor_msh2_mq7 .q_wrap .imgwrap .txtblock:nth-of-type(3) {top:155px;left:525px;}
 
+#kor_msh2_mq8.question_wrapper section img {mix-blend-mode:initial;}
+#kor_msh2_mq8.question_wrapper section .txtblock {width:186px;right:8px;top:157px;background:transparent;}
+#kor_msh2_mq8.question_wrapper section .txtblock:nth-of-type(2) {top:207px;}
 
+#kor_msh2_dq1_4.question_wrapper section img {mix-blend-mode:initial;}
+#kor_msh2_dq1_4.question_wrapper section .designSelect:nth-of-type(2) {width:360px;}
 
-
-
-
-
-
-
+#kor_msh2_dq7_4.question_wrapper section .a_wrap > div {line-height:3;}
