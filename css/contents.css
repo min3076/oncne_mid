@@ -401,8 +401,9 @@
 
 #kor_msh2_mq4 .txtblock.dash {width:500px;}
 
-
-
+#kor_msh2_mq7 .q_wrap .imgwrap .txtblock {width:250px;top:85px;left:8px}
+#kor_msh2_mq7 .q_wrap .imgwrap .txtblock:nth-of-type(2) {top:235px;left:125px}
+#kor_msh2_mq7 .q_wrap .imgwrap .txtblock:nth-of-type(3) {top:155px;left:525px;}
 
 
 
