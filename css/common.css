@@ -292,3 +292,10 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 
 /* bullet 형태의 텍스트 스타일 사용예시 :: math_msh3_mq4_22 참고 */
 .bullet {display:inline-flex;justify-content:center;align-items:center;min-height:38px;padding:6px 22px;border-radius:30px;border:1px solid var(--c_blue);color:var(--c_blue);background:var(--c_blue_1);}
+
+/* 말풍선 :: 이미지 + 말풍선일땐 bb_wrap을 씌움, 말풍선 꼬리 위치 변경은 페이지별 css 추가, 두개 이상일때는 부모요소에 flex-col 클래스 추가, 사용예시 :: math_msh2_dq5_7 */
+.bb_wrap {display:flex;align-items:center;}
+.bubble {position:relative;display:inline-block;padding:22px 20px;line-height:1.5;border-radius:5px;border:2px solid #7F7F7F;font-size:16px;text-align:left;background:#FFF;}
+.bubble:after {z-index:1;content:'';position:absolute;display:block;width:0;right:-24.8px;top:40px;border-style:solid;border-width:0 16px 20px 17.5px;border-color:#FFFFFF transparent;}
+.bubble:before {z-index:0;content:'';position:absolute;display:block;width:0;right:-28px;top:40px;border-style:solid;border-width:0 16px 20px 17.5px;border-color:#7F7F7F transparent;}
+.bubble:after, .bubble:before {transform:rotate(90deg);}
