@@ -323,6 +323,7 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 .txtblock.bk {border-color:#495057}
 .txtblock.qa, .txtblock.qe {position:absolute;}
 .txtblock.qa, .txtblock.qe {border-color:var(--c_gray40) !important;}
+.txtblock.on.qa, .txtblock.on.qe {border-color:var(--c_primary) !important;}
 
 /* 텍스트 스타일 */
 .underline {border-bottom:1px solid var(--c_gray40);}/* 밑줄긋기 */
