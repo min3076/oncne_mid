@@ -273,8 +273,8 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 .designSelect.on .lists {display:block;position:absolute;top:47px;width:100%;padding:0 14px;z-index:10;border:2px solid var(--c_gray40);border-top:0;overflow-y: scroll;}
 .designSelect .lists {display:none;max-height:200px;border-radius:3px;background:#fff;}
 .designSelect .lists ul{padding-top:10px;border-top:1px solid #E3EEF3;}
-.designSelect .lists ul li {text-align:center;}
-.designSelect .lists ul li a {display:block;height:48px;line-height:48px;padding:0 4px;text-align:left;}
+.designSelect .lists ul li {text-align:left;}
+.designSelect .lists ul li a {display:inline-block;height:48px;line-height:48px;padding:0 4px;text-align:left;white-space:nowrap;}
 .designSelect .lists ul li a:hover {background-color:var(--c_bg_gray);}
 
 /* color */
@@ -324,6 +324,5 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 .txtright {display:inline-block;line-height:3;text-align:right;width:100%;}/* 한줄짜리 텍스트 정렬 오른쪽 */
 .strong {display:block;width:100%;text-align:center;font-weight:800;}
 
-
 /* 오디오 */
-audio {}
+audio {filter:brightness(1.1);}
