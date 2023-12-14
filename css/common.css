@@ -294,6 +294,8 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 .bullet {display:inline-flex;justify-content:center;align-items:center;min-height:38px;padding:6px 22px;border-radius:30px;border:1px solid var(--c_blue);color:var(--c_blue);background:var(--c_blue_1);}
 .bullet.gray {color:#495057;border-color:transparent;background:#DEE4E8;font-weight:800;}
 .bullet.num {width:30px;height:30px;padding:0;border-radius:30px;min-width:30px;min-height:30px;font-weight:800;margin-right:4px;font-size:14px;} /* 123,가다나 등 개별 넘버링, 국어과는 문장 중에 사용할때 */
+.bullet.num.gr {border-color:var(--c_gray50);color:var(--c_gray70);background:var(--c_bg_gray_m);} /* 123,가다나 등 개별 넘버링, 국어과는 문장 중에 사용할때 */
+
 
 /* 말풍선 :: 이미지 + 말풍선일땐 bb_wrap을 씌움, 말풍선 꼬리 위치 변경은 페이지별 css 추가, 두 개 이상일때는 부모요소에 클래스 추가, 사용예시 :: math_msh2_dq5_7 */
 .bb_wrap {display:flex;align-items:center;}
