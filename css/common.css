@@ -290,8 +290,10 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 .ico_eq {background-image:url('/images/question/math_img_eq.png');} /* 등호 = */
 .ico_pl {background-image:url('/images/question/math_img_pl.png');} /* 더하기 + */
 
-/* bullet 형태의 텍스트 스타일 사용예시 :: math_msh3_mq4_22 참고 */
+/* bullet */
 .bullet {display:inline-flex;justify-content:center;align-items:center;min-height:38px;padding:6px 22px;border-radius:30px;border:1px solid var(--c_blue);color:var(--c_blue);background:var(--c_blue_1);}
+.bullet.gray {color:#495057;border-color:transparent;background:#DEE4E8;font-weight:800;}
+.bullet.num {width:30px;height:30px;padding:0;border-radius:30px;min-width:30px;min-height:30px;font-weight:800;margin-right:4px;font-size:14px;} /* 123,가다나 등 개별 넘버링, 국어과는 문장 중에 사용할때 */
 
 /* 말풍선 :: 이미지 + 말풍선일땐 bb_wrap을 씌움, 말풍선 꼬리 위치 변경은 페이지별 css 추가, 두 개 이상일때는 부모요소에 클래스 추가, 사용예시 :: math_msh2_dq5_7 */
 .bb_wrap {display:flex;align-items:center;}
@@ -299,6 +301,24 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 .bubble:after {z-index:1;content:'';position:absolute;display:block;width:0;right:-24.8px;top:40px;border-style:solid;border-width:0 16px 20px 17.5px;border-color:#FFFFFF transparent;}
 .bubble:before {z-index:0;content:'';position:absolute;display:block;width:0;right:-28px;top:40px;border-style:solid;border-width:0 16px 20px 17.5px;border-color:#7F7F7F transparent;}
 .bubble:after, .bubble:before {transform:rotate(90deg);}
+.bubble.dash, .bubble.dash:after, .bubble.dash:before {border-style:dashed;}
+.bubble.on {border-color:var(--c_primary) !important;}
+.bubble.on:before {border-color:var(--c_primary) transparent !important;}
 
-/* 밑줄긋기 */
-.underline {border-bottom:1px solid var(--c_gray40);}
+/* 블루 화살표 */
+.arr_blue {width:32px;height:32px;background:url('/images/common/arr_blue.svg') no-repeat 50%;}
+
+/* 텍스트 박스 스타일 */
+.txtwrap {line-height:1.5;} /* 문단 */
+.txtwrap.dis_flex {align-items:flex-start;width:100%;gap:20px;}
+.txtwrap.dis_flex > .bullet.gray {min-width:100px;}
+.tb_box {display:flex;flex-direction:column;align-items:center;width:calc(100% - 50px);} /* txtblock 여러개 사용하여 정렬이 필요할때 */
+.tb_box > .txtblock {width:100%;}
+.txtblock {display:inline-block;min-height:42px;min-width:100px;line-height:1.7;margin:0 2px;padding:4px 6px;border-radius:4px;vertical-align:middle;border:2px solid var(--c_gray40);background:#fff;} /* 한줄짜리 텍스트 박스 */
+.txtblock.on {border-color:var(--c_primary) !important;color:var(--c_primary) !important;}
+.txtblock.dash {border-style:dashed;}
+.txtblock.bk {border-color:#495057}
+
+/* 텍스트 스타일 */
+.underline {border-bottom:1px solid var(--c_gray40);}/* 밑줄긋기 */
+.txtright {display:inline-block;line-height:3;text-align:right;width:100%;}/* 한줄짜리 텍스트 정렬 오른쪽 */
