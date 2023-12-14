@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/*//////////수학//////////*/
 #math_msh1_mq1_8.question_wrapper section input[type="text"] {position:absolute;top:0;width:100px;height:42px;}
 #math_msh1_mq1_8.question_wrapper section .qa {left:40px;}
 #math_msh1_mq1_8.question_wrapper section .qa:nth-of-type(2) {left:230px;}
@@ -389,4 +390,26 @@
 #math_msh2_dq3_9.question_wrapper section .wrap {gap:22px;}
 
 #math_msh2_dq4_12.question_wrapper section .q_wrap .imgwrap .shape_sq {bottom:-1px;left:110px;width:60px;}
+
+
+
+
+/*//////////국어//////////*/
+#kor_msh2_mq1.question_wrapper section .designSelect:nth-of-type(2) {width:380px;}
+
+#kor_msh2_mq2 .txtblock.dash {width:400px;}
+
+#kor_msh2_mq4 .txtblock.dash {width:500px;}
+
+#kor_msh2_mq7 .q_wrap .imgwrap .txtblock {width:250px;top:85px;left:8px}
+#kor_msh2_mq7 .q_wrap .imgwrap .txtblock:nth-of-type(2) {top:235px;left:125px}
+#kor_msh2_mq7 .q_wrap .imgwrap .txtblock:nth-of-type(3) {top:155px;left:525px;}
+
+
+
+
+
+
+
+
 
