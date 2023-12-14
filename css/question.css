@@ -99,9 +99,7 @@
 #math_msh2_mq4_8.question_wrapper section .a_wrap{gap:4px;}
 #math_msh2_mq4_8 .designBox li em{min-width:110px;height:125px;}
 
-
 #math_msh3_dq1_3.question_wrapper section img{margin-top:12px;}
-
 
 #math_msh2_dq3_3.question_wrapper section .q_wrap ol{flex-direction:row;width:100%;}
 #math_msh2_dq3_3.question_wrapper section .q_wrap ol > li{display:flex;flex-direction:column;gap:20px;align-items:center;width:33.3%;text-align:center;font-weight:900}
