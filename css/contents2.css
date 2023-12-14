@@ -388,7 +388,7 @@ sup{vertical-align:super;}
 #math_msh2_dq4_3.question_wrapper section .a_wrap {gap:20px;}
 #math_msh2_dq4_3.question_wrapper section .a_wrap .list_ol {gap:35px;}
 #math_msh2_dq4_3.question_wrapper section .a_wrap .imgwrap {flex-wrap:wrap;align-items:flex-start;}
-#math_msh2_dq4_3.question_wrapper section .a_wrap .imgwrap .q{display:flex;align-items:center;gap:5px;flex-wrap:wrap;width:calc(100% - 44px);line-height:1.5;}}
+#math_msh2_dq4_3.question_wrapper section .a_wrap .imgwrap .q{display:flex;align-items:center;gap:5px;flex-wrap:wrap;width:calc(100% - 44px);line-height:1.5;}
 #math_msh2_dq4_3.question_wrapper section > .layout.row.w50 .q_wrap{width:40%;}
 #math_msh2_dq4_3.question_wrapper section > .layout.row.w50 .a_wrap{width:60%;}
 #math_msh2_dq4_3.question_wrapper section .a_wrap .imgwrap .designSelect{width:150px;}
