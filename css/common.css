@@ -299,3 +299,6 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 .bubble:after {z-index:1;content:'';position:absolute;display:block;width:0;right:-24.8px;top:40px;border-style:solid;border-width:0 16px 20px 17.5px;border-color:#FFFFFF transparent;}
 .bubble:before {z-index:0;content:'';position:absolute;display:block;width:0;right:-28px;top:40px;border-style:solid;border-width:0 16px 20px 17.5px;border-color:#7F7F7F transparent;}
 .bubble:after, .bubble:before {transform:rotate(90deg);}
+
+/* 밑줄긋기 */
+.underline {border-bottom:1px solid var(--c_gray40);}
