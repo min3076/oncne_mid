@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문항예시(다중선택)</title>
+
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/question.css">
+    <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="/js/include.js"></script>
+</head>
+<body>
+<div class="question_wrapper type-mq" id="kor_msh2_mq2"><!-- 문항페이지명을 id로 쓴다 type-mq(대표문항)/type-dq(세부문항/기본) subject_kor/math(국어/수학(기본)) -->
+    <div class="layout">
+        <!--[include]HEADER :: Start -->
+        <div id="question_header"></div>
+        <!--[include]HEADER :: End -->
+   
+    <section>
+        <h4 class="q_tit">
+            <em>문항 <i>2</i></em>
+           <span class="txt">다음 글의 빈칸에 이어질 내용을 예측한 것으로 적절한 것을&nbsp;<span class="underline">2가지</span>&nbsp;선택하시오.</span> 
+        </h4>
+        <div class="layout">
+            <div class="q_wrap wrap">
+                <div class="txtwrap dis_flex flex-col">
+                    <p><strong>[앞부분의 줄거리]</strong> 피곳 씨와 피곳 씨의 두 아들 사이먼과 패트릭은 집안일을 전혀 하지 않고 회사와 학교에 다닌다. 피곳 부인은 설거지, 침대 정리, 바닥 청소, 빨래, 다림질, 음식 만들기 등 집안일을 혼자 하며 일을 한다.</p>
+                    <p>&nbsp;어느 날, 벽난로 선반 위에 봉투가 하나 있었습니다. 피곳 씨는 그 봉투를 열어 보았습니다. 안에는 “너희들은 돼지야.”라고 쓰인 종이가 한 장 들어 있었습니다. </p>
+                    <p>&nbsp;“이제 어떻게 하지?” 피곳 씨가 말했습니다.</p>
+                    <p>&nbsp;피곳 씨와 아이들은 손수 저녁밥을 지어야 했습니다. 시간이 많이 걸렸습니다. 그리고 아주 끔찍했습니다. 다음 날 아침, 피곳 씨와 아이들은 손수 아침밥을 지어야 했습니다. 시간이 많이 걸렸습니다. 그리고 정말 끔찍했습니다.</p>
+                    <p>&nbsp;다음 날 그리고 그다음 날 밤, 또 그다음 다음 날에도 피곳 부인은 집에 돌아오지 않았습니다. 피곳 씨와 사이먼과 패트릭은 굶지는 않았습니다. 하지만 설거지를 하지 않았습니다. 빨래도 하지 않았습니다. 곧 집은 돼지우리처럼 되었습니다.</p>
+                    <p>&nbsp;“엄마는 언제 돌아와요?” 끔찍한 저녁을 먹고 나서 아이들이 꽥꽥거렸습니다.</p>
+                    <p>&nbsp;“난들 알겠니?” 피곳 씨가 꿀꿀댔습니다. 피곳 씨와 아이들은 점점 더 심술을 부렸습니다. 어느 날 밤, 집에는 먹을 게 하나도 없었습니다.</p>
+                    <p>&nbsp;“온 집 안을 샅샅이 뒤져서 음식 찌꺼기라도 찾아야 해.” 피곳 씨가 씩씩거렸습니다.<br> 그런데 바로 그때, 피곳 부인이 걸어 들어왔습니다.</p>
+                    <p>&nbsp;“제발, 돌아와 주세요!” 피곳 씨와 아이들이 킁킁거렸습니다.<br> 그래서 피곳 부인은 집에 있기로 했습니다. </p>
+                    <p></p>
+                    <p>&nbsp;이후로 피곳 씨 가족은 달라졌습니다.</p>
+                    <p>&nbsp;피곳 씨는 설거지를 했습니다.</p>
+                    <div class="txtblock dash"></div>
+                    <span class="txtright">- 앤서니 브라운, &#x300C;돼지책&#x300D; -</span>
+                </div>
+            </div>
+            <div>
+                <p class="q_txt"><i></i>아래의 항목에서 정답을 선택하세요</p>
+                <ul class="a_wrap wrap designCheck long">
+                    <li><input type="checkbox" class="qa" name="c_kor_msh2_mq2" id="kor_msh2_mq2_a1" /><!-- label id는 c(checkbox)_페이지명+a+숫자를 붙인다,  답변class="qa" 꼭!-->
+                        <label for="kor_msh2_mq2_a1">피곳 씨는 요리를 했습니다.</label>
+                    </li>
+                    <li><input type="checkbox" class="qa" name="c_kor_msh2_mq2" id="kor_msh2_mq2_a2" />
+                        <label for="kor_msh2_mq2_a2">패트릭은 친구를 만나러 갔습니다.</label>
+                    </li>
+                    <li><input type="checkbox" class="qa" name="c_kor_msh2_mq2" id="kor_msh2_mq2_a3" />
+                        <label for="kor_msh2_mq2_a3">피곳 부인은 자동차를 수리했습니다.</label>
+                    </li>
+                    <li><input type="checkbox" class="qa" name="c_kor_msh2_mq2" id="kor_msh2_mq2_a4" />
+                        <label for="kor_msh2_mq2_a4">사이먼은 소파에 누워 텔레비전을 봤습니다.</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <button class="btn btn-primary">저장 후 다음문제 <i></i></button>
+    </div>
+</div>
+
+</body>
+</html>
