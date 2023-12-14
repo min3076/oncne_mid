@@ -247,7 +247,7 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 .designSelect .selectoption li{padding:5px 0; font-size:18px; letter-spacing:-0.5px;}
 .designSelect .selectoption li:hover{color:#000;}
 .designSelect .selectoption li[rel="hide"]{display:none;}
-	/* design radio */
+/* design radio */
 .designRadio{display:flex;align-items:center;gap:30px;flex-wrap:wrap;}
 .designRadio li{display:flex;align-items:center;gap:20px;flex-wrap:wrap;}
 .designRadio input[type="radio"]{position:absolute; opacity:0; cursor: pointer;}
@@ -258,7 +258,12 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 
 .designRadio.long {flex-direction:column;align-items:flex-start!important;align-content:center;gap:26px!important;}
 
-	/* design checkbox */
+.designRadio.tt_type {display:inline-block;line-height:2.5;}
+.designRadio.tt_type input[type="radio"] + label {display:inline;}
+.designRadio.tt_type input[type="radio"] + label:before {display:none;}
+.designRadio.tt_type input[type="radio"]:checked + label {display:inline;color:var(--c_primary)}
+
+/* design checkbox */
 .designCheck{display:flex;align-items:center;gap:30px;flex-wrap:wrap;}
 .designCheck li{display:flex;align-items:center;gap:20px;flex-wrap:wrap;}
 .designCheck input[type="checkbox"]{position:absolute; opacity:0;}
@@ -332,7 +337,7 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 .txtblock.on.qa, .txtblock.on.qe {border-color:var(--c_primary) !important;}
 
 /* 텍스트 스타일 */
-.underline {border-bottom:1px solid var(--c_gray40);}/* 밑줄긋기 */
+.underline {font-weight:600;border-bottom:1px solid var(--c_gray70);}/* 밑줄긋기 */
 .txtright {display:inline-block;line-height:3;text-align:right;width:100%;}/* 한줄짜리 텍스트 정렬 오른쪽 */
 .txtcenter {display:inline-block;line-height:3;text-align:center;width:100%;}/* 한줄짜리 텍스트 정렬 가운데 */
 .strong {display:block;width:100%;text-align:center;font-weight:800;}
