@@ -262,7 +262,9 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 .designRadio.tt_type input[type="radio"] + label {display:inline;}
 .designRadio.tt_type input[type="radio"] + label:before {display:none;}
 .designRadio.tt_type input[type="radio"]:checked + label {display:inline;color:var(--c_primary)}
+
 .designRadio.tt_type input[type="radio"]:checked + label .txtblock {border-color:var(--c_primary) !important;color:var(--c_primary) !important;}
+.designRadio.tt_type .txtblock{display:inline;padding:5px 5px 7px 5px;}/* 문장 박스형 */
 
 /* design checkbox */
 .designCheck{display:flex;align-items:center;gap:30px;flex-wrap:wrap;}
