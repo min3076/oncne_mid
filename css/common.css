@@ -198,9 +198,9 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 .list_kor2 > li:nth-of-type(8)::before{content:'아';}
 
 /* 대본형태 */
-.list_kor3 {display:flex;flex-direction:column;gap:4px;}
-.list_kor3 li {display:flex;gap:10px;line-height:1.5;}
-.list_kor3 li b {min-width:40px;}
+.list_kor3 {display:flex;flex-direction:column;gap:10px;}
+.list_kor3 li {display:flex;line-height:1.5;}
+.list_kor3 li b {min-width:40px;margin-right:16px;}
 
 
 /* form */
@@ -332,7 +332,6 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 .txtblock.on {border-color:var(--c_primary) !important;color:var(--c_primary) !important;}
 .txtblock.dash {border-style:dashed;}
 .txtblock.bk {border-color:#495057}
-.txtblock.qa, .txtblock.qe {position:absolute;}
 .txtblock.qa, .txtblock.qe {border-color:var(--c_gray40) !important;}
 .txtblock.on.qa, .txtblock.on.qe {border-color:var(--c_primary) !important;}
 
