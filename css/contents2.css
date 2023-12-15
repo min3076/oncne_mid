@@ -426,7 +426,6 @@ sup{vertical-align:super;}
 #kor_msh1_mq6.question_wrapper section .q_wrap .imgwrap .txtblock:nth-of-type(2){left:123px;top:349px;}
 #kor_msh1_mq6.question_wrapper section .q_wrap .imgwrap .txtblock:nth-of-type(3){left:123px;top:494px;}
 
-
 #kor_msh1_dq4_2.question_wrapper section .q_wrap .txtwrap .txtblock{width:500px;}
 
 #kor_msh1_dq7_1.question_wrapper section .q_wrap .txtwrap .bullet.gray{width:180px;}
@@ -444,3 +443,4 @@ sup{vertical-align:super;}
 #kor_msh1_dq10_3.question_wrapper section .q_wrap .txtwrap.dis_flex{width: calc(100% - 230px);}
 
 #kor_msh1_mq9.question_wrapper section .q_wrap .line{display:flex;width: 1px;height: 100%;background-color: var(--c_gray40);}
+
