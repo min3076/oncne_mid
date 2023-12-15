@@ -436,3 +436,5 @@ sup{vertical-align:super;}
 #kor_msh1_dq7_3.question_wrapper section .q_wrap .txtwrap .txt .txtblock{width:300px;}
 
 #kor_msh1_dq10_3.question_wrapper section .q_wrap .txtwrap.dis_flex{width: calc(100% - 230px);}
+
+#kor_msh1_mq9.question_wrapper section .q_wrap .line{display:flex;width: 1px;height: 100%;background-color: var(--c_gray40);}
