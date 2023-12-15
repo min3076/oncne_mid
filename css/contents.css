@@ -426,7 +426,25 @@
 #kor_msh2_dq7_2 .designRadio.tt_type input[type="radio"]:nth-of-type(4) + label::after {content:'④';left:12px;}
 #kor_msh2_dq7_2 .designRadio.tt_type input[type="radio"]:nth-of-type(5) + label::after {content:'⑤';left:10px;}
 
+#kor_msh1_mq1.question_wrapper section .a_wrap .imgwrap .designSelect{position: absolute;}
+#kor_msh1_mq1.question_wrapper section .a_wrap .imgwrap .designSelect{left:114px;top:160px;width:595px;}
+#kor_msh1_mq1.question_wrapper section .a_wrap .imgwrap .designSelect:nth-of-type(2){left:429px;top:212px;width:280px}
+#kor_msh1_mq1.question_wrapper section .a_wrap .imgwrap .designSelect:nth-of-type(3){left:114px;top:266px;width:280px}
 
+#kor_msh2_dq2_1 .txtblock {width:400px}
+
+#kor_msh2_dq4_3 .designRadio.tt_type {display:flex;flex-direction:column;align-items:flex-start;line-height:2;gap:0;}
+#kor_msh2_dq4_3 .designRadio.tt_type > li {width:100%;padding:20px 0;border-bottom:1px solid var(--c_gray50)}
+#kor_msh2_dq4_3 .designRadio.tt_type > li:last-child {border-bottom:none;}
+#kor_msh2_dq4_3 .designRadio.tt_type > li > span {width: 100px;}
+#kor_msh2_dq4_3 .designRadio.tt_type > li > ul {width:calc(100% - 120px);}
+#kor_msh2_dq4_3 .designRadio.tt_type > li > ul > li {margin:10px 0;}
+
+#kor_msh2_dq8_1.question_wrapper section .q_wrap {padding:50px 50px 0}
+#kor_msh2_dq8_1.question_wrapper section .a_wrap {gap:32px;}
+#kor_msh2_dq8_1 .designRadio.tt_type input[type="radio"] + label {width:200px;}
+#kor_msh2_dq8_1 .designRadio.tt_type input[type="radio"] + label img {width:100%;}
+#kor_msh2_dq8_1 .designRadio.tt_type > li > label > .txtblock {display:flex;flex-direction:column;align-items:center;padding:12px 12px 18px;gap:12px;}
 
 
 
