@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 .wp50{width:50%}
 .wp100 {width:100%;}
 sup{vertical-align:super;}
@@ -444,3 +445,10 @@ sup{vertical-align:super;}
 
 #kor_msh1_mq9.question_wrapper section .q_wrap .line{display:flex;width: 1px;height: 100%;background-color: var(--c_gray40);}
 
+#kor_msh1_mq8.question_wrapper section .q_wrap .imgwrap{padding-top:30px;}
+#kor_msh1_mq8.question_wrapper section .q_wrap .dis_flex{width:40%;}
+#kor_msh1_mq8.question_wrapper section .q_wrap .dis_flex:nth-of-type(2){width:60%;}
+#kor_msh1_mq8.question_wrapper section .q_wrap .designSelect{width:100%;}
+
+#kor_msh1_dq4_3.question_wrapper section .q_wrap{padding:20px;}
+#kor_msh1_dq4_3.question_wrapper section .a_wrap .designCheck em{width: calc(100% - 30px);line-height:1.5;letter-spacing:-.5px;}
