@@ -418,13 +418,13 @@
 
 #kor_msh2_dq6_1.question_wrapper section .q_wrap .imgwrap .txtblock {left:360px;bottom:66px;}
 
-#kor_msh2_dq3_2 .designRadio.tt_type input[type="radio"] + label {position:relative;text-decoration:underline;}
-#kor_msh2_dq3_2 .designRadio.tt_type input[type="radio"] + label::after {content: '';position:absolute;top:25px;left:8px;display:inline-block;}
-#kor_msh2_dq3_2 .designRadio.tt_type input[type="radio"]:nth-of-type(1) + label::after {content:'①';}
-#kor_msh2_dq3_2 .designRadio.tt_type input[type="radio"]:nth-of-type(2) + label::after {content:'②';left:0;}
-#kor_msh2_dq3_2 .designRadio.tt_type input[type="radio"]:nth-of-type(3) + label::after {content:'③';left:0;}
-#kor_msh2_dq3_2 .designRadio.tt_type input[type="radio"]:nth-of-type(4) + label::after {content:'④';left:12px;}
-#kor_msh2_dq3_2 .designRadio.tt_type input[type="radio"]:nth-of-type(5) + label::after {content:'⑤';left:10px;}
+#kor_msh2_dq7_2 .designRadio.tt_type input[type="radio"] + label {position:relative;text-decoration:underline;}
+#kor_msh2_dq7_2 .designRadio.tt_type input[type="radio"] + label::after {content: '';position:absolute;top:25px;left:8px;display:inline-block;}
+#kor_msh2_dq7_2 .designRadio.tt_type input[type="radio"]:nth-of-type(1) + label::after {content:'①';}
+#kor_msh2_dq7_2 .designRadio.tt_type input[type="radio"]:nth-of-type(2) + label::after {content:'②';left:0;}
+#kor_msh2_dq7_2 .designRadio.tt_type input[type="radio"]:nth-of-type(3) + label::after {content:'③';left:0;}
+#kor_msh2_dq7_2 .designRadio.tt_type input[type="radio"]:nth-of-type(4) + label::after {content:'④';left:12px;}
+#kor_msh2_dq7_2 .designRadio.tt_type input[type="radio"]:nth-of-type(5) + label::after {content:'⑤';left:10px;}
 
 
 
