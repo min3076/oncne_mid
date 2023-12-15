@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+.wp50{width:50%}
 .wp100 {width:100%;}
 sup{vertical-align:super;}
 .list_st{display:flex;justify-content:center;align-items:center;gap:10px;width:30px;height:30px;border-radius:100px;border: 1px solid var(--c_gray50);color:var(--c_gray70);font-weight:800;font-size:16px;background:var(--c_bg_gray_m);}
@@ -433,3 +434,5 @@ sup{vertical-align:super;}
 #kor_msh1_dq7_3.question_wrapper section .q_wrap .txtwrap .bullet{width:180px;}
 #kor_msh1_dq7_3.question_wrapper section .q_wrap .txtwrap .txt{width: calc(100% - 180px);}
 #kor_msh1_dq7_3.question_wrapper section .q_wrap .txtwrap .txt .txtblock{width:300px;}
+
+#kor_msh1_dq10_3.question_wrapper section .q_wrap .txtwrap.dis_flex{width: calc(100% - 230px);}
