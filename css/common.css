@@ -334,7 +334,7 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 .txtblock.dash {border-style:dashed;}
 .txtblock.bk {border-color:#495057}
 .txtblock.qa, .txtblock.qe {border-color:var(--c_gray40) !important;}
-.txtblock.on.qa, .txtblock.on.qe {border-style: solid; border-color:var(--c_primary) !important;}
+.txtblock.on.qa, .txtblock.on.qe {border-color:var(--c_primary) !important;}
 
 /* 텍스트 스타일 */
 .underline {font-weight:600;border-bottom:1px solid var(--c_gray70);}/* 밑줄긋기 */
