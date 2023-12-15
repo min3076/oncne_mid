@@ -7,6 +7,10 @@ sup{vertical-align:super;}
 .on .list_st {border-color:var(--c_primary);color:var(--c_primary);background:var(--c_primary_p10);}
 .txtblock.in{display:inline;line-height: 2.5;padding:5px 5px 7px 5px;}
 
+.list_ol > li.gr::before, .list_kor > li.gr::before, .list_kor2 > li.gr::before{border-color:var(--c_gray50);color:var(--c_gray70);background:var(--c_bg_gray_m);}
+.list_ol > li.txtwrap.dis_flex, .list_kor > li.txtwrap.dis_flex, .list_kor2 > li.txtwrap.dis_flex{gap:10px}
+.list_ol > li.txtwrap p, .list_kor > li.txtwrap p, .list_kor2 > li.txtwrap p{width: calc(100% - 45px);}
+
 #math_msh2_mq1_2.question_wrapper section .wrap{padding:80px 50px;}
 
 #math_msh2_dq1_4 .list_ol > li::before{display: none;}
