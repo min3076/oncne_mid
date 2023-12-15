@@ -345,3 +345,5 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 /* 오디오 */
 audio {filter:brightness(1.1);}
 
+/* 비디오 */
+video {width:600px;}
