@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문항예시(다중선택)</title>
+
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/question.css">
+    <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="/js/include.js"></script>
+</head>
+<body>
+<div class="question_wrapper type-mq" id="kor_msh3_mq3"><!-- 문항페이지명을 id로 쓴다 type-mq(대표문항)/type-dq(세부문항/기본) subject_kor/math(국어/수학(기본)) -->
+    <div class="layout">
+        <!--[include]HEADER :: Start -->
+        <div id="question_header"></div>
+        <!--[include]HEADER :: End -->
+   
+    <section>
+        <h4 class="q_tit">
+            <em>문항 <i>3</i></em>
+           <span class="txt">다음 매체의 특성으로 옳은 것&nbsp;<span class="underline">2가지</span>&nbsp;선택하시오.</span> 
+        </h4>
+        <div class="layout">
+            <div class="q_wrap wrap">
+                <div class="imgwrap flex-col">
+                    <img src="/images/question/kor_msh3_mq3_q.png" />
+                </div>
+            </div>
+            <div>
+                <p class="q_txt"><i></i>아래의 항목에서 정답을 선택하세요</p>
+                <ul class="a_wrap wrap designCheck long">
+                    <li><input type="checkbox" class="qa" name="c_kor_msh3_mq3" id="kor_msh3_mq3_a1" /><!-- label id는 c(checkbox)_페이지명+a+숫자를 붙인다,  답변class="qa" 꼭!-->
+                        <label for="kor_msh3_mq3_a1">그래프를 활용해 현장감 있게 전달하고 있다.</label>
+                    </li>
+                    <li><input type="checkbox" class="qa" name="c_kor_msh3_mq3" id="kor_msh3_mq3_a2" />
+                        <label for="kor_msh3_mq3_a2">인상적인 문구로 악성 댓글의 위험성을 나타냈다.</label>
+                    </li>
+                    <li><input type="checkbox" class="qa" name="c_kor_msh3_mq3" id="kor_msh3_mq3_a3" />
+                        <label for="kor_msh3_mq3_a3">악성 댓글의 위험성을 총 모양으로 시각화해서 표현했다.</label>
+                    </li>
+                    <li><input type="checkbox" class="qa" name="c_kor_msh3_mq3" id="kor_msh3_mq3_a4" />
+                        <label for="kor_msh3_mq3_a4">시각 자료와 청각 자료를 모두 사용하여 생동감 있게 의미를 전달하고 있다.</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <button class="btn btn-primary">저장 후 다음문제 <i></i></button>
+    </div>
+</div>
+
+</body>
+</html>
