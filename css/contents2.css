@@ -452,3 +452,5 @@ sup{vertical-align:super;}
 
 #kor_msh1_dq4_3.question_wrapper section .q_wrap{padding:20px;}
 #kor_msh1_dq4_3.question_wrapper section .a_wrap .designCheck em{width: calc(100% - 30px);line-height:1.5;letter-spacing:-.5px;}
+
+#kor_msh1_dq6_1.question_wrapper section .a_wrap .designSelect{width:250px;}
