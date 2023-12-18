@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문항예시(다중선택)</title>
+
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/question.css">
+    <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="/js/include.js"></script>
+</head>
+<body>
+<div class="question_wrapper type-mq" id="kor_msh3_mq5"><!-- 문항페이지명을 id로 쓴다 type-mq(대표문항)/type-dq(세부문항/기본) subject_kor/math(국어/수학(기본)) -->
+    <div class="layout">
+        <!--[include]HEADER :: Start -->
+        <div id="question_header"></div>
+        <!--[include]HEADER :: End -->
+   
+    <section>
+        <h4 class="q_tit">
+            <em>문항 <i>5</i></em>
+           <span class="txt">다음 글을 고쳐 쓸 때, 적절한 조언을&nbsp;<span class="underline">2가지</span>&nbsp;선택하시오.</span> 
+        </h4>
+        <div class="layout">
+            <div class="q_wrap wrap">
+                <div class="txtwrap dis_flex flex-col gap20">
+                    <strong class="strong">정확한 분리수거 방법을 공부하자</strong>
+                    <p>&nbsp;학교의 분리수거장을 가본 적이 있나요? 쓰레기 분리수거가 전혀 이뤄지지 않고, <span class="bullet num">ㄱ</span><span class="underline">악취</span>가 나서 양손으로 코를 쥐게 됩니다. 이런 문제가 발생하게 된 이유는 무엇일까요?</p>
+                    <p>&nbsp;첫째, 학생들의 귀찮아하는 태도 때문입니다. 분리수거장을 한 시간 정도 지켜보면 분리수거 하려는 학생보다, 아무렇게나 던져넣는 학생이 더 많은 것을 볼 수 있습니다. <span class="bullet num">ㄴ</span><span class="underline">학교 분리수거 활동에 참여하면 봉사 활동 시간을 매 학기 2시간 받을 수 있습니다.</span></p>
+                    <p>&nbsp;둘째, 많은 학생이 분리수거 방법을 제대로 모르기 때문입니다. <span class="bullet num">ㄷ</span><span class="underline">제대로 분리수거 하려는 학생도 음식물 쓰레기, 플라스틱, 알루미늄, 스테인리스, 캔 등 다양한 쓰레기를 어떻게 분류해야 하는지 몰라 분리수거 할 때 어려움을 겪습니다.</span></p>
+                    <p>&nbsp;이런 문제를 해결하고 <span class="bullet num">ㄹ</span><span class="underline">깨끝한</span> 환경을 만들기 위해서는 정확한 분리수거 방법을 공부해야 합니다. 그리고 나아가 주변 사람들에게 영향을 미친다면 더 아름다운 학교, 더 아름다운 지구를 만들 수 있을 것입니다.</p>
+                    <span class="txtright">- ○○ 중학교 신문, 20××년 3월 10일 -</span>
+                </div>
+            </div>
+            <div>
+                <p class="q_txt"><i></i>아래의 항목에서 정답을 선택하세요</p>
+                <ul class="a_wrap wrap designCheck long">
+                    <li><input type="checkbox" class="qa" name="c_kor_msh3_mq5" id="kor_msh3_mq5_a1" /><!-- label id는 c(checkbox)_페이지명+a+숫자를 붙인다,  답변class="qa" 꼭!-->
+                        <label for="kor_msh3_mq5_a1"><span class="bullet num">ㄱ</span>은 문장의 내용이 자연스러워지도록 ‘악취’를 ‘향기’로 바꾸는 게 좋겠어.</label>
+                    </li>
+                    <li><input type="checkbox" class="qa" name="c_kor_msh3_mq5" id="kor_msh3_mq5_a2" />
+                        <label for="kor_msh3_mq5_a2"><span class="bullet num">ㄴ</span>은 글의 주제와 관련이 적은 내용이니 삭제하는 게 좋겠어.</label>
+                    </li>
+                    <li><input type="checkbox" class="qa" name="c_kor_msh3_mq5" id="kor_msh3_mq5_a3" />
+                        <label for="kor_msh3_mq5_a3"><span class="bullet num">ㄷ</span>은 앞의 문장에서 나온 내용이 반복되니 삭제하는 게 좋겠어.</label>
+                    </li>
+                    <li><input type="checkbox" class="qa" name="c_kor_msh3_mq5" id="kor_msh3_mq5_a4" />
+                        <label for="kor_msh3_mq5_a4"><span class="bullet num">ㄹ</span>은 한글 맞춤법에 맞게 ‘깨끗한’으로 바꾸는 게 좋겠어.</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <button class="btn btn-primary">저장 후 다음문제 <i></i></button>
+    </div>
+</div>
+
+</body>
+</html>

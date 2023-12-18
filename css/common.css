@@ -37,6 +37,12 @@ html, body {margin: 0; padding: 0;font-size:16px; color:var(--c_gray70);backgrou
 .gap20{gap:20px!important}
 .gap40{gap:40px!important}
 
+
+/* width */
+.wp50{width:50%!important}
+.wp100 {width:100%!important}
+
+
 /* BUTTON  - _button.css */
 a {text-decoration: none;color: #333;}
 button {border: 0; background: none; cursor: pointer;}

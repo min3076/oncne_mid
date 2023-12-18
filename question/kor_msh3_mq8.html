@@ -1,0 +1,68 @@
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문항예시(다중선택)</title>
+
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/question.css">
+    <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="/js/include.js"></script>
+</head>
+<body>
+<div class="question_wrapper type-mq" id="kor_msh3_mq8"><!-- 문항페이지명을 id로 쓴다 type-mq(대표문항)/type-dq(세부문항/기본) subject_kor/math(국어/수학(기본)) -->
+    <div class="layout">
+        <!--[include]HEADER :: Start -->
+        <div id="question_header"></div>
+        <!--[include]HEADER :: End -->
+   
+    <section>
+        <h4 class="q_tit">
+            <em>문항 <i>8</i></em>
+           <span class="txt"><span class="bullet num">나</span>는&nbsp;<span class="bullet num">가</span>를 모방한 시이다.&nbsp;<span class="bullet num">가</span>와&nbsp;<span class="bullet num">나</span>의 말하는 이에 대한 적절한 설명을 선택하시오.</span> 
+        </h4>
+        <div class="layout">
+            <div class="q_wrap wrap">
+                <div class="txtwrap dis_flex flex-col">
+                    <span class="bullet num">가</span>
+                    <p>네가 바라보는<br>별빛의 길을<br>잃지만 않으면 돼</p>
+                    <p>어디서든<br>일어서기만 하면<br>그곳이 시작이야</p>
+                    <span class="txtright">- 이삼남, &#x300C;아빠의 편지&#x300D; -</span>
+                </div>
+                <div class="txtwrap dis_flex flex-col">
+                    <span class="bullet num">나</span>
+                    <p>아빠가 바라보는<br>별빛의 길을<br>잃지만 않으면 돼</p>
+                    <p>어디서든<br>일어서기만 하면<br>그곳이 시작이야</p>
+                    <span class="txtright">- ○○○, &#x300C;딸의 편지&#x300D; -</span>
+                </div>
+            </div>
+            <div>
+                <p class="q_txt"><i></i>아래의 항목에서 정답을 선택하세요</p>
+                <ul class="a_wrap wrap designCheck long">
+                    <li><input type="checkbox" class="qa" name="c_kor_msh3_mq5" id="kor_msh3_mq5_a1" /><!-- label id는 c(checkbox)_페이지명+a+숫자를 붙인다,  답변class="qa" 꼭!-->
+                        <label for="kor_msh3_mq5_a1"><span class="bullet num">가</span>의 말하는 이는 아빠,&nbsp;<span class="bullet num">나</span>의 말하는 이는 딸이야.</label>
+                    </li>
+                    <li><input type="checkbox" class="qa" name="c_kor_msh3_mq5" id="kor_msh3_mq5_a2" />
+                        <label for="kor_msh3_mq5_a2"><span class="bullet num">나</span>를 읽으면 딸이 아빠에게 응원을 보내는 따뜻한 마음이 느껴져.</label>
+                    </li>
+                    <li><input type="checkbox" class="qa" name="c_kor_msh3_mq5" id="kor_msh3_mq5_a3" />
+                        <label for="kor_msh3_mq5_a3"><span class="bullet num">가</span>와&nbsp;<span class="bullet num">나</span>의 말하는 이는 어려운 상황을 만났을 때 쉽게 절망하고 있어.</label>
+                    </li>
+                    <li><input type="checkbox" class="qa" name="c_kor_msh3_mq5" id="kor_msh3_mq5_a4" />
+                        <label for="kor_msh3_mq5_a4"><span class="bullet num">가</span>와&nbsp;<span class="bullet num">나</span>의 말하는 이는 하고자 하는 일이 좌절된 상황에 놓인 것 같아.</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <button class="btn btn-primary">저장 후 다음문제 <i></i></button>
+    </div>
+</div>
+
+</body>
+</html>
