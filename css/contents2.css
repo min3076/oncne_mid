@@ -456,14 +456,20 @@ sup{vertical-align:super;}
 #kor_msh1_dq6_1.question_wrapper section .a_wrap .designSelect{width:250px;}
 
 #kor_msh1_dq5_3.question_wrapper section .q_wrap .line{display:flex;width: 1px;height: 100%;background-color: var(--c_gray40);}
-#kor_msh1_dq5_3 .bb_wrap .bubble:after {left:-24.8px;}
-#kor_msh1_dq5_3 .bb_wrap .bubble:before {left:-28px;}
-#kor_msh1_dq5_3 .bb_wrap .bubble:after,
-#kor_msh1_dq5_3 .bb_wrap .bubble:before {right:initial;transform:rotate(-90deg);}
+#kor_msh1_dq5_3.question_wrapper section .bb_wrap .bubble:after {left:-24.8px;}
+#kor_msh1_dq5_3.question_wrapper section .bb_wrap .bubble:before {left:-28px;}
+#kor_msh1_dq5_3.question_wrapper section .bb_wrap .bubble:after,
+#kor_msh1_dq5_3.question_wrapper section .bb_wrap .bubble:before {right:initial;transform:rotate(-90deg);}
 #kor_msh1_dq5_3.question_wrapper section .a_wrap .designSelect:nth-of-type(2){width:280px;}
 
-#kor_msh1_dq9_2 .bb_wrap{width:450px;}
-#kor_msh1_dq9_2 .bb_wrap .bubble:after {left:-24.8px;}
-#kor_msh1_dq9_2 .bb_wrap .bubble:before {left:-28px;}
-#kor_msh1_dq9_2 .bb_wrap .bubble:after,
-#kor_msh1_dq9_2 .bb_wrap .bubble:before {right:initial;transform:rotate(-90deg);}
+#kor_msh1_dq9_2.question_wrapper section .bb_wrap{width:450px;}
+#kor_msh1_dq9_2.question_wrapper section .bb_wrap .bubble:after {left:-24.8px;}
+#kor_msh1_dq9_2.question_wrapper section .bb_wrap .bubble:before {left:-28px;}
+#kor_msh1_dq9_2.question_wrapper section .bb_wrap .bubble:after,
+#kor_msh1_dq9_2.question_wrapper section .bb_wrap .bubble:before {right:initial;transform:rotate(-90deg);}
+
+#kor_msh3_mq2.question_wrapper section .q_wrap .txtwrap .strong:first-child{max-width:100px;}
+#kor_msh3_mq2.question_wrapper section .q_wrap .txtwrap p{width:35%;}
+#kor_msh3_mq2.question_wrapper section .q_wrap .txtwrap p:nth-of-type(2){width:45%}
+#kor_msh3_mq2.question_wrapper section .q_wrap .line{display:flex;width: 100%;height: 1px;background-color: var(--c_gray40);}
+#kor_msh3_mq2.question_wrapper section .q_wrap .line.bk{height:2px;background-color:var(--c_gray70)}
