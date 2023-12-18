@@ -473,3 +473,5 @@ sup{vertical-align:super;}
 #kor_msh3_mq2.question_wrapper section .q_wrap .txtwrap p:nth-of-type(2){width:45%}
 #kor_msh3_mq2.question_wrapper section .q_wrap .line{display:flex;width: 100%;height: 1px;background-color: var(--c_gray40);}
 #kor_msh3_mq2.question_wrapper section .q_wrap .line.bk{height:2px;background-color:var(--c_gray70)}
+
+#kor_msh3_mq4.question_wrapper section .q_wrap .txtwrap{line-height:2;}
