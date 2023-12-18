@@ -484,3 +484,7 @@ sup{vertical-align:super;}
 #kor_msh3_mq7.question_wrapper section .q_wrap .imgwrap .txtblock:nth-of-type(3){left:672px;top:210px;}
 
 #kor_msh3_dq1_4.question_wrapper section .q_wrap .txtblock{width:140px;}
+
+#kor_msh3_dq3_1.question_wrapper section .q_wrap video{width:350px;}
+#kor_msh3_dq3_1.question_wrapper section .q_wrap.list_kor2 li{justify-content:space-between;min-height:350px;}
+#kor_msh3_dq3_1.question_wrapper section .q_wrap .txtblock{width:150px;}
