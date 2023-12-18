@@ -491,3 +491,8 @@ sup{vertical-align:super;}
 
 #kor_msh3_dq5_4.question_wrapper section > .layout {align-items:flex-start;}
 #kor_msh3_dq5_4.question_wrapper section .txtblock{min-height:96px;}
+
+#kor_msh3_dq7_2.question_wrapper section .q_wrap .txtblock{height:46px;text-align:center;}
+
+#kor_msh3_dq8_1.question_wrapper section > .layout {align-items:flex-start;}
+#kor_msh3_dq8_1.question_wrapper section .q_wrap .txtwrap{text-align:center;}
