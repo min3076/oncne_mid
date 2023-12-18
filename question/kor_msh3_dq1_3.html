@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문항예시(셀렉트박스)</title>
+
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/question.css">
+    <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="/js/include.js"></script>
+    <script type="text/javascript" src="/js/contents.js"></script>
+</head>
+<body>
+<div class="question_wrapper type-dq" id="kor_msh3_dq1_3"><!-- 문항페이지명을 id로 쓴다 type-mq(대표문항)/type-dq(세부문항/기본) subject_kor/math(국어/수학(기본)) -->
+    <div class="layout">
+        <!--[include]HEADER :: Start -->
+        <div id="question_header"></div>
+        <!--[include]HEADER :: End -->
+   
+    <section>
+        <h4 class="q_tit">
+            <em>문항 <i>3</i></em>
+           <span class="txt">대화를 듣고 여학생이 남학생에게 화가 난 이유를 선택하시오. </span> 
+        </h4>
+        <div class="layout">
+            <div class="q_wrap wrap">
+                <audio controls src="/images/question/kor_msh3_dq1_3_q.mp3">브라우저가 오디오를 지원하지 않습니다.</audio>
+            </div>
+            <div>
+                <p class="q_txt"><i></i>아래의 항목에서 정답을 선택하세요</p>
+                <ul class="a_wrap wrap designRadio long">
+                    <li><input type="radio" class="qe" name="r_kor_msh3_dq1_3" id="kor_msh3_dq1_3_a1" /><!-- label id는 r(radio)_페이지명+a+숫자를 붙인다,  보기class="qe"!꼭-->
+                        <label for="kor_msh3_dq1_3_a1">그러니까 나한테 잘해.</label>
+                    </li>
+                    <li><input type="radio" class="qe" name="r_kor_msh3_dq1_3" id="kor_msh3_dq1_3_a2" />
+                        <label for="kor_msh3_dq1_3_a2">별일 아니네. 그냥 무시해.</label>
+                    </li>
+                    <li><input type="radio" class="qe" name="r_kor_msh3_dq1_3" id="kor_msh3_dq1_3_a3" />
+                        <label for="kor_msh3_dq1_3_a3">신경 쓰지 말고 나랑만 놀면 되지.</label>
+                    </li>
+                    <li><input type="radio" class="qe" name="r_kor_msh3_dq1_3" id="kor_msh3_dq1_3_a4" />
+                        <label for="kor_msh3_dq1_3_a4">그럴 때는 너도 똑같이 피해 다니렴.</label>
+                    </li>
+                    <li><input type="radio" class="qe" name="r_kor_msh3_dq1_3" id="kor_msh3_dq1_3_a5" />
+                        <label for="kor_msh3_dq1_3_a5">많이 힘들었겠다. 사과 편지를 쓰는 건 어때?</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <button class="btn btn-primary">저장 후 다음문제 <i></i></button>
+    </div>
+</div>
+
+</body>
+</html>
