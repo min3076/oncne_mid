@@ -8,7 +8,7 @@
 
 
 * {box-sizing: border-box;}
-html, body {margin: 0; padding: 0;font-size:16px; color:var(--c_gray70);background:var(--bg_body);}
+html, body {margin: 0; padding: 0;font-size:16px; color:var(--c_gray_70);background:var(--bg_body);}
 
 /* screen reader only*/
 .sr-only {overflow: hidden;position: absolute;border: 0;width: 1px;height: 1px;clip: rect(1px, 1px, 1px, 1px);clip-path: inset(50%);}
@@ -49,7 +49,7 @@ button {border: 0; background: none; cursor: pointer;}
 
 /* tab 버튼*/
 .bn_tab {padding: 16px 20px; font-weight: 800; font-size: 1.6rem;}
-.bn_tab.on {display: flex; gap: 5px; background: var(--c_blue_1);}
+.bn_tab.on {display: flex; gap: 5px; background: var(--c_primary_1);}
 .bn_tab.on::after {content:"";display:block;width: 16px;height: 16px;background:url(../images/common/arrow_under_blue.svg) no-repeat;}
 
 /* 팝업 닫기버튼 */
@@ -127,15 +127,15 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 
 /* stat 텍스트 */
 .state.tx{width:7.6rem;height:3.3rem;border:1px solid;padding:.8rem;font-size:1.5rem;border-radius:.4rem;font-style:normal;text-indent:0;overflow:hidden;font-size:1.5rem;text-align:center;}
-.state.tx.more{width:auto;background-color:var(--c_blue_1);color:var(--c_blue);border-color:var(--c_blue); display: inline-block;}/* 보충 텍스트형 */
+.state.tx.more{width:auto;background-color:var(--c_primary_1);color:var(--c_primary);border-color:var(--c_primary); display: inline-block;}/* 보충 텍스트형 */
 
 .state.tx.end{background-color:#f6f6f6;color:#afafaf;border-color:#f6f6f6}/*  완료 텍스트형 */
-.state.tx.ing{background-color:var(--c_blue_1);color:var(--c_blue);border-color:var(--c_blue_1)}/*  학습중 텍스트형 */
+.state.tx.ing{background-color:var(--c_primary_1);color:var(--c_primary);border-color:var(--c_primary_1)}/*  학습중 텍스트형 */
 .state.tx.study{background-color:#fff;color:#757575;border-color:#e2e2e2}/* 학습하기 텍스트형 */
 
 /* 진단 상태 아이콘 + 텍스트 노출 */
 .txout{display:flex;align-items:center;gap:.4rem;font-size:1.5rem;}
-.txout.ing_learn{color:var(--c_blue)}/* 해득 */
+.txout.ing_learn{color:var(--c_primary)}/* 해득 */
 .txout.ing_miss{color:#929EA9}/* 미해득 */
 
 /* 다문화 여부 아이콘*/
@@ -158,9 +158,9 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 /* tab */
 .tabs {width:100%}
 .tabs .tab-header {position:relative;display:flex;align-items:center;gap:1rem;}
-.tabs .tab-header::after{z-index:0;content:"";position:absolute;left:0;bottom:0;display:block;width:100%;height:.2rem;background:var(--c_blue);}
+.tabs .tab-header::after{z-index:0;content:"";position:absolute;left:0;bottom:0;display:block;width:100%;height:.2rem;background:var(--c_primary);}
 .tabs .tab-header > button {position:relative;padding:2.2rem 4.2rem;font-size:1.6rem;font-weight:800;color:#757575;border-top-left-radius:1rem;border-top-right-radius:1rem;border:2px solid #fff;border-bottom:0;cursor: pointer;background-color:#fff;}
-.tabs .tab-header > button.active {z-index:10;color:var(--c_blue);border-color:var(--c_blue);background:var(--bg_body);}
+.tabs .tab-header > button.active {z-index:10;color:var(--c_primary);border-color:var(--c_primary);background:var(--bg_body);}
 .tabs .tab-body{padding:0;font-size:1.5rem}
 /* .tabs .tab-body > div {display:none;} */
 .tabs .tab-body > div.active {display:block;}
@@ -168,7 +168,7 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 /* ul */
 .list_1st{margin-left:1rem}
 .list_1st li{position:relative;padding:.4rem .4rem .4rem 1rem;text-align:left;font-size:1.5rem}
-.list_1st li::before{content:"";position:absolute;left:0;top:50%;display:block;width:.3rem;height:.3rem;border-radius:4rem;transform:translateY(-50%);background:var(--c_blue);}
+.list_1st li::before{content:"";position:absolute;left:0;top:50%;display:block;width:.3rem;height:.3rem;border-radius:4rem;transform:translateY(-50%);background:var(--c_primary);}
 
 .list_ol{display:flex;flex-direction:column;gap:10px;}
 .list_ol > li{position:relative}
@@ -218,7 +218,7 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 .question_wrapper input[type="date"],
 .question_wrapper input[type="email"],
 .question_wrapper input[type="number"],
-.question_wrapper textarea{max-width:100%; height:32px; box-sizing:border-box; padding:0 10px;border-radius: 4px;border: 2px solid var(--c_gray70);vertical-align:middle; font-size:16px; font-weight:500; letter-spacing:-1px;color:var(--c_primary);font-family:var(--f_nsR);background: #fff; transition:border 0.3s ease 0s;}
+.question_wrapper textarea{max-width:100%; height:32px; box-sizing:border-box; padding:0 10px;border-radius: 4px;border: 2px solid var(--c_gray_70);vertical-align:middle; font-size:16px; font-weight:500; letter-spacing:-1px;color:var(--c_primary);font-family:var(--f_nsR);background: #fff; transition:border 0.3s ease 0s;}
 .question_wrapper textarea{resize:none; height:420px; border:1px solid #ddd;padding:40px;}
 .question_wrapper input[type="text"]:focus,
 .question_wrapper input[type="password"]:focus,
@@ -288,11 +288,11 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 .designSelect {position:relative;margin:auto;border:none;border-radius:4px;width:180px;height:50px;background:#fff;}
 .designSelect .lay {width:100%;height:50px;border: none;background: transparent; border-radius:0; border-radius: 4px;}
 .designSelect .lay strong {display:block;width:100%;height:100%;}
-.designSelect .lay a {position:relative;display:flex;align-items:center;width:100%;height:50px;line-height:1; padding: 0 20px; color:var(--c_gray50);font-size:16px;font-weight:800;border-radius:4px;border: 2px solid var(--c_gray40);}
+.designSelect .lay a {position:relative;display:flex;align-items:center;width:100%;height:50px;line-height:1; padding: 0 20px; color:var(--c_gray_50);font-size:16px;font-weight:800;border-radius:4px;border: 2px solid var(--c_gray_40);}
 .designSelect .lay a::after {content:"";display:block;position:absolute;right: 15px; top: 10px; width: 24px; height: 24px;transform:rotate(0deg);-webkit-transform: rotate(0deg);background: url(../images/common/ico_arr_bott.svg) no-repeat 50%;transition: all var(--ani_time) ease;-webkit-transition: all var(--ani_time) ease;}
 .designSelect.on .lay a{border-radius:4px 4px 0 0 }
 .designSelect.on .lay a::after {transform: rotate(180deg);-webkit-transform: rotate(180deg);}
-.designSelect.on .lists {display:block;position:absolute;top:47px;width:100%;padding:0 14px;z-index:10;border:2px solid var(--c_gray40);border-top:0;overflow-y: scroll;}
+.designSelect.on .lists {display:block;position:absolute;top:47px;width:100%;padding:0 14px;z-index:10;border:2px solid var(--c_gray_40);border-top:0;overflow-y: scroll;}
 .designSelect .lists {display:none;max-height:200px;border-radius:3px;background:#fff;}
 .designSelect .lists ul{padding-top:10px;border-top:1px solid #E3EEF3;}
 .designSelect .lists ul li {text-align:center;}
@@ -313,10 +313,11 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 .ico_pl {background-image:url('/images/question/math_img_pl.png');} /* 더하기 + */
 
 /* bullet */
-.bullet {display:inline-flex;justify-content:center;align-items:center;min-height:38px;padding:6px 22px;border-radius:30px;border:1px solid var(--c_blue);color:var(--c_blue);background:var(--c_blue_1);}
-.bullet.gray {color:#495057;border-color:transparent;background:#DEE4E8;font-weight:800;}
+.bullet {display:inline-flex;justify-content:center;align-items:center;min-height:38px;padding:6px 22px;border-radius:30px;border:1px solid var(--c_primary);color:var(--c_primary);background:var(--c_primary_p10);}
+.bullet.gray {color:var(--c_gray_70);border-color:transparent;background:var(--c_bg_gray_m);font-weight:800;}
 .bullet.num {width:30px;height:30px;padding:0;border-radius:30px;min-width:30px;min-height:30px;font-weight:800;margin-right:4px;font-size:14px;} /* 123,가다나 등 개별 넘버링, 국어과는 문장 중에 사용할때 */
-.bullet.num.gr {border-color:var(--c_gray50);color:var(--c_gray70);background:var(--c_bg_gray_m);}
+.bullet.num.gr {border-color:var(--c_gray_50);color:var(--c_gray_70);background:var(--c_bg_gray_m);}
+.designRadio.tt_type input[type="radio"]:checked + label .bullet.num.gr {border-color:var(--c_primary);color:var(--c_primary);background:var(--c_primary_p10);}
 
 /* 말풍선 :: 이미지 + 말풍선일땐 bb_wrap을 씌움, 말풍선 꼬리 위치 변경은 페이지별 css 추가, 두 개 이상일때는 부모요소에 클래스 추가, 사용예시 :: math_msh2_dq5_7 */
 .bb_wrap {display:flex;align-items:center;}
@@ -337,15 +338,15 @@ thead tr th {font-weight: 700; font-size: 1.6rem;}
 .txtwrap.dis_flex > .bullet.gray {min-width:100px;}
 .tb_box {display:flex;flex-direction:column;align-items:center;width:calc(100% - 50px);} /* txtblock 여러개 사용하여 정렬이 필요할때 */
 .tb_box > .txtblock {width:100%;}
-.txtblock {display:inline-block;min-height:42px;min-width:100px;line-height:1.7;margin:0 2px;padding:4px 6px;border-radius:4px;vertical-align:middle;border:2px solid var(--c_gray40);background:#fff;} /* 한줄짜리 텍스트 박스 */
+.txtblock {display:inline-block;min-height:42px;min-width:100px;line-height:1.7;margin:0 2px;padding:4px 6px;border-radius:4px;vertical-align:middle;border:2px solid var(--c_gray_40);background:#fff;} /* 한줄짜리 텍스트 박스 */
 .txtblock.on {border-color:var(--c_primary) !important;color:var(--c_primary) !important;}
 .txtblock.dash {border-style:dashed;}
 .txtblock.bk {border-color:#495057}
-.txtblock.qa, .txtblock.qe {border-color:var(--c_gray40) !important;}
+.txtblock.qa, .txtblock.qe {border-color:var(--c_gray_40) !important;}
 .txtblock.on.qa, .txtblock.on.qe {border-color:var(--c_primary) !important;}
 
 /* 텍스트 스타일 */
-.underline {font-weight:600;border-bottom:1px solid var(--c_gray70);}/* 밑줄긋기 */
+.underline {font-weight:600;border-bottom:1px solid var(--c_gray_70);}/* 밑줄긋기 */
 .txtright {display:inline-block;line-height:3;text-align:right;width:100%;}/* 한줄짜리 텍스트 정렬 오른쪽 */
 .txtcenter {display:inline-block;line-height:3;text-align:center;width:100%;}/* 한줄짜리 텍스트 정렬 가운데 */
 .strong {display:block;width:100%;text-align:center;font-weight:800;}
